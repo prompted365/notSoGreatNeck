@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERT Analytics - RICO Investigation Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #e74c3c;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --info-color: #3498db;
+            --dark-bg: #1a1a1a;
+            --light-bg: #ecf0f1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, var(--primary-color) 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: rgba(26, 26, 26, 0.95) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .hero-section {
+            padding: 60px 0;
+            text-align: center;
+            background: rgba(255,255,255,0.05);
+            margin: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 20px;
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .stat-value {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 20px;
+        }
+
+        .module-card {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .module-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .module-header {
+            padding: 25px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            text-align: center;
+        }
+
+        .module-header i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .module-header h3 {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .module-body {
+            padding: 25px;
+        }
+
+        .module-body ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .module-body li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .module-body li:last-child {
+            border-bottom: none;
+        }
+
+        .btn-launch {
+            width: 100%;
+            padding: 12px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, var(--success-color), var(--info-color));
+            border: none;
+            color: white;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .btn-launch:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg, var(--info-color), var(--success-color));
+        }
+
+        .disclaimer-banner {
+            background: rgba(231, 76, 60, 0.2);
+            border: 2px solid var(--secondary-color);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .disclaimer-banner strong {
+            font-size: 1.2rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .badge-custom {
+            padding: 8px 15px;
+            font-size: 0.9rem;
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .tier-2 {
+            background: var(--warning-color);
+        }
+
+        .tier-3 {
+            background: var(--info-color);
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+
+            .stat-value {
+                font-size: 2rem;
+            }
+
+            .module-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-shield-alt"></i> CERT Analytics
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LEGAL_DISCLAIMER.md" target="_blank"><i class="fas fa-exclamation-triangle"></i> Disclaimer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="USER_GUIDE.md" target="_blank"><i class="fas fa-book"></i> User Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/prompted365/notSoGreatNeck" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Disclaimer Banner -->
+    <div class="disclaimer-banner">
+        <i class="fas fa-exclamation-circle" style="font-size: 2rem; color: var(--secondary-color);"></i>
+        <br>
+        <strong>⚠️ CONFIDENTIAL - ATTORNEY WORK PRODUCT</strong>
+        <p class="mb-0 mt-2">This system is strictly confidential. All data from OSINT sources only.
+        <a href="LEGAL_DISCLAIMER.md" target="_blank" style="color: #fff; text-decoration: underline;">Read full disclaimer (REQUIRED)</a></p>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1><i class="fas fa-shield-alt"></i> CERT Analytics Dashboard</h1>
+        <p class="lead">Comprehensive Evidence Research Team - RICO Investigation Support System</p>
+        <p><strong>Phase 6 Complete</strong> | Version 7.0-CERT | Generated: 2025-11-21</p>
+    </div>
+
+    <!-- Statistics Grid -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <i class="fas fa-database" style="font-size: 3rem; color: var(--info-color);"></i>
+            <div class="stat-value">88,721</div>
+            <div class="stat-label">Semantic Embeddings</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-folder-open" style="font-size: 3rem; color: var(--success-color);"></i>
+            <div class="stat-value">22</div>
+            <div class="stat-label">Evidence Items (v6)</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-chart-pie" style="font-size: 3rem; color: var(--warning-color);"></i>
+            <div class="stat-value">15</div>
+            <div class="stat-label">Semantic Clusters</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-project-diagram" style="font-size: 3rem; color: var(--secondary-color);"></i>
+            <div class="stat-value">50</div>
+            <div class="stat-label">Network Nodes</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-image" style="font-size: 3rem; color: var(--info-color);"></i>
+            <div class="stat-value">17</div>
+            <div class="stat-label">Visualizations</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-gavel" style="font-size: 3rem; color: var(--success-color);"></i>
+            <div class="stat-value">36.4%</div>
+            <div class="stat-label">Prosecution Readiness</div>
+        </div>
+    </div>
+
+    <!-- Module Grid -->
+    <div class="container-fluid">
+        <h2 class="text-center my-5"><i class="fas fa-th-large"></i> Investigation Modules</h2>
+
+        <div class="module-grid">
+            <!-- 3D Network Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-cubes"></i>
+                    <h3>3D Network Graph</h3>
+                    <p class="mb-0">Interactive RICO Enterprise Structure</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><i class="fas fa-check"></i> 50 nodes (entities, wallets, organizations)</li>
+                        <li><i class="fas fa-check"></i> 48 relationships mapped</li>
+                        <li><i class="fas fa-check"></i> 22 communities detected</li>
+                        <li><i class="fas fa-check"></i> Force-directed 3D layout</li>
+                        <li><i class="fas fa-check"></i> Drag, rotate, zoom</li>
+                    </ul>
+                    <button class="btn btn-launch mt-3" onclick="window.open('VIZ_7_ENTITY_NETWORK_3D_ENHANCED.html', '_blank')">
+                        <i class="fas fa-rocket"></i> Launch 3D Network
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dashboard Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>RICO Dashboard</h3>
+                    <p class="mb-0">Comprehensive Investigation Overview</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Evidence inventory browser</li>
+                        <li><i class="fas fa-check"></i> Tier distribution charts</li>
+                        <li><i class="fas fa-check"></i> Timeline visualization</li>
+                        <li><i class="fas fa-check"></i> Entity relationship matrix</li>
+                        <li><i class="fas fa-check"></i> Prosecution metrics</li>
+                    </ul>
+                    <button class="btn btn-launch mt-3" onclick="window.open('VIZ_6_RICO_DASHBOARD_ENHANCED_v2.html', '_blank')">
+                        <i class="fas fa-rocket"></i> Launch Dashboard
+                    </button>
+                </div>
+            </div>
+
+            <!-- Network Interactive Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-sitemap"></i>
+                    <h3>2D Interactive Network</h3>
+                    <p class="mb-0">Phase 6 Network Analysis</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Updated with CERT data</li>
+                        <li><i class="fas fa-check"></i> Hover for entity details</li>
+                        <li><i class="fas fa-check"></i> Community color coding</li>
+                        <li><i class="fas fa-check"></i> Centrality metrics displayed</li>
+                        <li><i class="fas fa-check"></i> Lightweight & fast</li>
+                    </ul>
+                    <button class="btn btn-launch mt-3" onclick="window.open('coordination/network_interactive.html', '_blank')">
+                        <i class="fas fa-rocket"></i> Launch 2D Network
+                    </button>
+                </div>
+            </div>
+
+            <!-- Word Clouds Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Word Cloud Gallery</h3>
+                    <p class="mb-0">NLP Frequency Analysis</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><i class="fas fa-check"></i> 17 high-resolution word clouds</li>
+                        <li><i class="fas fa-check"></i> 300 DPI print-ready</li>
+                        <li><i class="fas fa-check"></i> Color-coded by category</li>
+                        <li><i class="fas fa-check"></i> Global + chunk views</li>
+                        <li><i class="fas fa-check"></i> Trial exhibit ready</li>
+                    </ul>
+                    <button class="btn btn-launch mt-3" onclick="showWordClouds()">
+                        <i class="fas fa-rocket"></i> View Word Clouds
+                    </button>
+                </div>
+            </div>
+
+            <!-- Evidence Browser Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-folder-open"></i>
+                    <h3>Evidence Browser</h3>
+                    <p class="mb-0">22 Items | v6 Inventory</p>
+                </div>
+                <div class="module-body">
+                    <div>
+                        <span class="badge badge-custom tier-2">8 Tier 2 Items</span>
+                        <span class="badge badge-custom tier-3">14 Tier 3 Items</span>
+                    </div>
+                    <ul class="mt-3">
+                        <li><i class="fas fa-check"></i> Filter by tier/pillar</li>
+                        <li><i class="fas fa-check"></i> Full corpus citations</li>
+                        <li><i class="fas fa-check"></i> CERT analytics metadata</li>
+                        <li><i class="fas fa-check"></i> SHA-256 integrity hashes</li>
+                        <li><i class="fas fa-check"></i> Export to JSON/CSV</li>
+                    </ul>
+                    <button class="btn btn-launch mt-3" onclick="showEvidence()">
+                        <i class="fas fa-rocket"></i> Browse Evidence
+                    </button>
+                </div>
+            </div>
+
+            <!-- Semantic Search Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-search"></i>
+                    <h3>Semantic Search</h3>
+                    <p class="mb-0">88,721 Embedded Documents</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><i class="fas fa-check"></i> Natural language queries</li>
+                        <li><i class="fas fa-check"></i> Qdrant vector database</li>
+                        <li><i class="fas fa-check"></i> < 1 second response</li>
+                        <li><i class="fas fa-check"></i> Cosine similarity ranking</li>
+                        <li><i class="fas fa-check"></i> Full provenance tracking</li>
+                    </ul>
+                    <div class="alert alert-info mt-3" role="alert">
+                        <i class="fas fa-terminal"></i> <strong>CLI Usage:</strong><br>
+                        <code>python scripts/search_corpus.py "query" 10</code>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Documentation Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-book"></i>
+                    <h3>Documentation</h3>
+                    <p class="mb-0">Guides & References</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><a href="LEGAL_DISCLAIMER.md" target="_blank" style="color: #fff;"><i class="fas fa-exclamation-triangle"></i> Legal Disclaimer (REQUIRED)</a></li>
+                        <li><a href="USER_GUIDE.md" target="_blank" style="color: #fff;"><i class="fas fa-user"></i> User Guide</a></li>
+                        <li><a href="AI_AGENT_README.md" target="_blank" style="color: #fff;"><i class="fas fa-robot"></i> AI Agent API</a></li>
+                        <li><a href="DIRECTORY_TREE.md" target="_blank" style="color: #fff;"><i class="fas fa-folder-tree"></i> File Navigator</a></li>
+                        <li><a href="README.md" target="_blank" style="color: #fff;"><i class="fas fa-info-circle"></i> Project Overview</a></li>
+                    </ul>
+                    <button class="btn btn-launch mt-3" onclick="window.open('USER_GUIDE.md', '_blank')">
+                        <i class="fas fa-book-open"></i> Read Documentation
+                    </button>
+                </div>
+            </div>
+
+            <!-- System Status Module -->
+            <div class="module-card">
+                <div class="module-header">
+                    <i class="fas fa-server"></i>
+                    <h3>System Status</h3>
+                    <p class="mb-0">CERT Agents & Monitors</p>
+                </div>
+                <div class="module-body">
+                    <ul>
+                        <li><i class="fas fa-check text-success"></i> File_Chunker: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> HTML_Analyzer: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> Word_Cloud_Generator: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> Qdrant_Manager: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> Semantic_Clusterer: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> Network_Grapher: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> Citation_Linker: Complete</li>
+                        <li><i class="fas fa-check text-success"></i> Evidence_Integrator: Complete</li>
+                    </ul>
+                    <div class="alert alert-success mt-3" role="alert">
+                        <i class="fas fa-circle-check"></i> <strong>All Systems Operational</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p><strong>CERT Analytics Dashboard</strong> | Version 7.0 | Phase 6 Complete</p>
+        <p>Generated: 2025-11-21 |
+           <a href="https://github.com/prompted365/notSoGreatNeck" target="_blank" style="color: #fff;">
+               <i class="fab fa-github"></i> GitHub Repository
+           </a>
+        </p>
+        <p><i class="fas fa-lock"></i> Confidential - Attorney Work Product - Not for Dissemination</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Word cloud gallery function
+        function showWordClouds() {
+            const wordClouds = [
+                'coordination/wordcloud_global_all_chunks.png',
+                'coordination/wordcloud_chunk_01_telegram.png',
+                'coordination/wordcloud_chunk_02_blockchain.png',
+                'coordination/wordcloud_chunk_03_legal.png',
+                'coordination/wordcloud_chunk_04_financial.png',
+                'coordination/wordcloud_chunk_05_websites.png',
+                'coordination/wordcloud_chunk_06_communications.png',
+                'coordination/wordcloud_chunk_07_documents.png',
+                'coordination/wordcloud_chunk_08_data.png'
+            ];
+
+            const galleryHTML = `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Word Cloud Gallery</title>
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+                    <style>
+                        body { background: #1a1a1a; color: #fff; padding: 20px; }
+                        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; }
+                        .cloud-card { background: rgba(255,255,255,0.1); border-radius: 10px; padding: 15px; }
+                        .cloud-card img { width: 100%; border-radius: 8px; }
+                        .cloud-card h5 { text-align: center; margin-top: 10px; }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <h1 class="text-center mb-4">Word Cloud Gallery</h1>
+                        <div class="gallery-grid">
+                            ${wordClouds.map((src, i) => `
+                                <div class="cloud-card">
+                                    <img src="${src}" alt="Word Cloud ${i+1}">
+                                    <h5>${src.split('/')[1].replace('wordcloud_', '').replace('.png', '').replace(/_/g, ' ')}</h5>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </body>
+                </html>
+            `;
+
+            const win = window.open('', '_blank');
+            win.document.write(galleryHTML);
+            win.document.close();
+        }
+
+        // Evidence browser function
+        function showEvidence() {
+            fetch('coordination/evidence_inventory_v6.json')
+                .then(r => r.json())
+                .then(data => {
+                    const evidenceHTML = `
+                        <!DOCTYPE html>
+                        <html>
+                        <head>
+                            <title>Evidence Browser</title>
+                            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+                            <style>
+                                body { background: #1a1a1a; color: #fff; padding: 20px; }
+                                .evidence-card { background: rgba(255,255,255,0.1); border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+                                .tier-2 { border-left: 5px solid #f39c12; }
+                                .tier-3 { border-left: 5px solid #3498db; }
+                                .evidence-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+                                .badge-tier { padding: 5px 15px; border-radius: 20px; }
+                                .evidence-meta { font-size: 0.9rem; opacity: 0.8; }
+                            </style>
+                        </head>
+                        <body>
+                            <div class="container">
+                                <h1 class="text-center mb-4">Evidence Inventory v6</h1>
+                                <div class="row mb-4">
+                                    <div class="col-md-3 text-center">
+                                        <h3>${data.summary.total_items}</h3>
+                                        <p>Total Items</p>
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <h3>${data.summary.tier2_items}</h3>
+                                        <p>Tier 2 (High)</p>
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <h3>${data.summary.tier3_items}</h3>
+                                        <p>Tier 3 (Medium)</p>
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <h3>${data.summary.prosecution_readiness_pct}%</h3>
+                                        <p>Prosecution Ready</p>
+                                    </div>
+                                </div>
+                                ${data.evidence.map(e => `
+                                    <div class="evidence-card tier-${e.tier}">
+                                        <div class="evidence-header">
+                                            <h5><strong>${e.evidence_id}</strong></h5>
+                                            <span class="badge bg-warning badge-tier">Tier ${e.tier}</span>
+                                        </div>
+                                        <p>${e.description}</p>
+                                        <div class="evidence-meta">
+                                            <strong>Type:</strong> ${e.type}<br>
+                                            <strong>Pillar:</strong> ${e.pillar}<br>
+                                            <strong>Prosecution Value:</strong> ${e.prosecution_value}/10<br>
+                                            <strong>Corpus Matches:</strong> ${e.cert_analytics?.total_matches || 'N/A'}<br>
+                                            <strong>Discovery Method:</strong> ${e.cert_analytics?.discovery_method || 'N/A'}
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </body>
+                        </html>
+                    `;
+
+                    const win = window.open('', '_blank');
+                    win.document.write(evidenceHTML);
+                    win.document.close();
+                })
+                .catch(err => alert('Error loading evidence: ' + err));
+        }
+    </script>
+</body>
+</html>
