@@ -1,0 +1,18 @@
+{
+  "agent": "Evidence_Integrator",
+  "status": "completed",
+  "started_at": "2025-11-21T20:31:05Z",
+  "completed_at": "2025-11-21T20:31:05Z",
+  "items_processed": 22,
+  "items_added": 22,
+  "enrichments_applied": 22,
+  "output_file": "/Users/breydentaylor/certainly/visualizations/coordination/evidence_inventory_v6.json",
+  "metrics": {
+    "corpus_mapping": 22,
+    "semantic_clusters": 0,
+    "network_stats": 0,
+    "citations": 0,
+    "indicator_analysis": 0,
+    "new_items": 22
+  }
+}
