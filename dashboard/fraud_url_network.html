@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fraud URL Network - 1,000 TLS Fraud URLs</title>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #0a0e27;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            color: #b8c6db;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+            text-align: center;
+        }
+        .stat-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #b8c6db;
+            text-transform: uppercase;
+        }
+        .stat-card .value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #4da6ff;
+            margin: 5px 0;
+        }
+        .stat-card .subtitle {
+            font-size: 12px;
+            color: #7a8fb3;
+        }
+        .chart-container {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+            margin-bottom: 30px;
+        }
+        .domain-list {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+        }
+        .domain-item {
+            background: #252b4a;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid;
+            border-radius: 5px;
+        }
+        .domain-item.telegram { border-left-color: #3498db; }
+        .domain-item.website { border-left-color: #e74c3c; }
+        .domain-item.youtube { border-left-color: #f39c12; }
+        .domain-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4da6ff;
+            margin-bottom: 5px;
+        }
+        .domain-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .stat-item {
+            color: #b8c6db;
+        }
+        .stat-value {
+            color: #4da6ff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Fraud URL Network Analysis</h1>
+        <p>The Light System (TLS) Fraud Campaign Distribution</p>
+        <p style="font-size: 20px; font-weight: bold; color: #e74c3c;">1,000 URLs Classified</p>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Total Fraud URLs</h3>
+            <div class="value">1,000</div>
+            <div class="subtitle">Classified from 9,831 posts</div>
+        </div>
+        <div class="stat-card">
+            <h3>Telegram URLs</h3>
+            <div class="value">685</div>
+            <div class="subtitle">68.5% - Primary platform</div>
+        </div>
+        <div class="stat-card">
+            <h3>Website URLs</h3>
+            <div class="value">212</div>
+            <div class="subtitle">21.2% - Direct sales</div>
+        </div>
+        <div class="stat-card">
+            <h3>YouTube URLs</h3>
+            <div class="value">103</div>
+            <div class="subtitle">10.3% - Video content</div>
+        </div>
+        <div class="stat-card">
+            <h3>Top Domain</h3>
+            <div class="value">t.me</div>
+            <div class="subtitle">685 URLs (dominant)</div>
+        </div>
+        <div class="stat-card">
+            <h3>Fraud Indicators</h3>
+            <div class="value">100%</div>
+            <div class="subtitle">All have TLS + medical claims</div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div id="platformChart"></div>
+    </div>
+
+    <div class="chart-container">
+        <div id="domainChart"></div>
+    </div>
+
+    <div class="chart-container">
+        <div id="fraudIndicatorChart"></div>
+    </div>
+
+    <div class="domain-list">
+        <h2 style="color: #4da6ff; margin-top: 0;">Top Fraud Domains</h2>
+
+        <div class="domain-item telegram">
+            <div class="domain-name">t.me (Telegram)</div>
+            <div>Primary distribution channel for TLS fraud campaign</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">685</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Telegram</span></div>
+                <div class="stat-item">Main Channel: <span class="stat-value">@jasonyosefshurka</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item youtube">
+            <div class="domain-name">youtube.com</div>
+            <div>Video content with medical claims and TLS advertising</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">100</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">YouTube</span></div>
+                <div class="stat-item">Content: <span class="stat-value">Healing testimonials</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">thelightsystems.com</div>
+            <div>Official TLS sales website - direct fraud platform</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">35</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">E-commerce fraud</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">koalendar.com</div>
+            <div>Booking system for TLS consultations</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">28</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Appointment booking</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">jasonshurka.com</div>
+            <div>Personal brand website promoting TLS</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">27</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Personal branding</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">www.kepm.com</div>
+            <div>Associated entity website</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">27</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Network expansion</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">www.instagram.com</div>
+            <div>Social media fraud distribution</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">24</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Social proof building</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">unifyd.tv</div>
+            <div>UNIFYD corporate streaming platform</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">23</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Content distribution</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">www.unifydhealing.com</div>
+            <div>UNIFYD medical fraud platform</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">18</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Healing claims</span></div>
+            </div>
+        </div>
+
+        <div class="domain-item website">
+            <div class="domain-name">tlsmarketplace.shop</div>
+            <div>TLS e-commerce platform</div>
+            <div class="domain-stats">
+                <div class="stat-item">URLs: <span class="stat-value">15+</span></div>
+                <div class="stat-item">Platform: <span class="stat-value">Website</span></div>
+                <div class="stat-item">Function: <span class="stat-value">Direct sales</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Platform distribution pie chart
+        var platformData = [{
+            values: [685, 212, 103],
+            labels: ['Telegram', 'Website', 'YouTube'],
+            type: 'pie',
+            marker: {
+                colors: ['#3498db', '#e74c3c', '#f39c12'],
+                line: {
+                    color: '#ffffff',
+                    width: 2
+                }
+            },
+            textinfo: 'label+percent+value',
+            textfont: {
+                size: 14,
+                color: '#ffffff'
+            },
+            hovertemplate: '<b>%{label}</b><br>URLs: %{value}<br>Percentage: %{percent}<extra></extra>'
+        }];
+
+        var platformLayout = {
+            title: {
+                text: 'Fraud URL Distribution by Platform',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            height: 500
+        };
+
+        Plotly.newPlot('platformChart', platformData, platformLayout, {responsive: true});
+
+        // Top domains bar chart
+        var domainData = [{
+            x: [685, 100, 35, 28, 27, 27, 24, 23, 18, 15],
+            y: [
+                't.me',
+                'youtube.com',
+                'thelightsystems.com',
+                'koalendar.com',
+                'jasonshurka.com',
+                'www.kepm.com',
+                'www.instagram.com',
+                'unifyd.tv',
+                'www.unifydhealing.com',
+                'tlsmarketplace.shop'
+            ],
+            type: 'bar',
+            orientation: 'h',
+            marker: {
+                color: ['#3498db', '#f39c12', '#e74c3c', '#9b59b6', '#e74c3c', '#9b59b6', '#16a085', '#e74c3c', '#e74c3c', '#e74c3c'],
+                line: {
+                    color: '#ffffff',
+                    width: 1
+                }
+            },
+            text: [685, 100, 35, 28, 27, 27, 24, 23, 18, 15],
+            textposition: 'auto',
+            hovertemplate: '<b>%{y}</b><br>URLs: %{x}<extra></extra>'
+        }];
+
+        var domainLayout = {
+            title: {
+                text: 'Top 10 Fraud Domains',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            xaxis: {
+                title: 'Number of URLs',
+                gridcolor: '#2a5298'
+            },
+            yaxis: {
+                gridcolor: '#2a5298'
+            },
+            height: 600
+        };
+
+        Plotly.newPlot('domainChart', domainData, domainLayout, {responsive: true});
+
+        // Fraud indicators stacked bar
+        var fraudIndicatorData = [
+            {
+                x: ['Telegram', 'Website', 'YouTube'],
+                y: [685, 212, 103],
+                name: 'Has Light System',
+                type: 'bar',
+                marker: { color: '#3498db' },
+                hovertemplate: '<b>%{x}</b><br>Has Light System: %{y}<extra></extra>'
+            },
+            {
+                x: ['Telegram', 'Website', 'YouTube'],
+                y: [685, 212, 103],
+                name: 'Medical Claims',
+                type: 'bar',
+                marker: { color: '#e74c3c' },
+                hovertemplate: '<b>%{x}</b><br>Medical Claims: %{y}<extra></extra>'
+            },
+            {
+                x: ['Telegram', 'Website', 'YouTube'],
+                y: [685, 212, 103],
+                name: 'Pricing Present',
+                type: 'bar',
+                marker: { color: '#f39c12' },
+                hovertemplate: '<b>%{x}</b><br>Pricing: %{y}<extra></extra>'
+            }
+        ];
+
+        var fraudIndicatorLayout = {
+            title: {
+                text: 'Fraud Indicators by Platform (100% Coverage)',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            barmode: 'group',
+            xaxis: {
+                title: 'Platform',
+                gridcolor: '#2a5298'
+            },
+            yaxis: {
+                title: 'Number of URLs',
+                gridcolor: '#2a5298'
+            },
+            legend: {
+                font: { color: '#ffffff' }
+            },
+            height: 500
+        };
+
+        Plotly.newPlot('fraudIndicatorChart', fraudIndicatorData, fraudIndicatorLayout, {responsive: true});
+    </script>
+</body>
+</html>

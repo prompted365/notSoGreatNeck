@@ -1,0 +1,864 @@
+{
+  "analysis_date": "2025-11-20T17:13:56.099274",
+  "total_transactions": 10256,
+  "large_transfers": [
+    {
+      "hash": "0x3ee5b2e8c665eef35d7b463c6da83299d54c2b519d23f7be6777512b54560f06",
+      "amount_eth": 2200.03810837,
+      "amount_usd": 5500095.270924999,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-04-14 05:45:20",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xeba5cd5cc649ed8e6af1e503a10c7b3fa323b2dcf8061a37b2e70d55210984fb",
+      "amount_eth": 1999.99851594,
+      "amount_usd": 4999996.28985,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-25 11:18:11",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xeaaa016ff616b81da44c02fdb87995cc336f9944ba66472b96e3047e009bc668",
+      "amount_eth": 1888.0,
+      "amount_usd": 4720000.0,
+      "from": "0xde8589960da34eefb00ca879d8cc12b11f52cb12",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-08-26 05:20:03",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x88a0123f78c6b0a6ff2a6467a512681e39e9de43e846286dabade019309f2312",
+      "amount_eth": 1799.996,
+      "amount_usd": 4499990.0,
+      "from": "0x73f8fc2e74302eb2efda125a326655acf0dc2d1b",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-06-27 20:17:54",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xad2b3525ee8b92e62cffa5c2ca6142321e72c87099733843602136b0a6f39f63",
+      "amount_eth": 1795.00760067,
+      "amount_usd": 4487519.001675,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-01-20 13:22:22",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xce84a981c92e57f341ca2ede3a01be4d5682e902ab783b56d00a7dc61cd58d18",
+      "amount_eth": 1549.9964,
+      "amount_usd": 3874991.0,
+      "from": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-07-01 18:55:17",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x85967151a04d19c55d82a934a3cef1362a33ffb227d48f4ead9939dea6dd318f",
+      "amount_eth": 1499.99786177,
+      "amount_usd": 3749994.6544250003,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-14 16:19:44",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x38af80bae05cbfb570a517b7c4944008bfd624f1f6ceb2d21dca22f645dddc8d",
+      "amount_eth": 1499.9964,
+      "amount_usd": 3749991.0,
+      "from": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-07-06 09:41:17",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x99a6a0500fe379326f2cc51601f5a3301bf46647cd1b7dbb121c09230ade6e20",
+      "amount_eth": 1499.996,
+      "amount_usd": 3749990.0000000005,
+      "from": "0x3c979fb790c86e361738ed17588c1e8b4c4cc49a",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-07-26 13:36:44",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x8351248beda5158a4978a67bb3a7917b1276af027fd86d736aa8484f168df9b9",
+      "amount_eth": 1400.0,
+      "amount_usd": 3500000.0,
+      "from": "0xd7b50738ff2f339563c8d330e171c66b2715367f",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-06-28 11:27:26",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x2b9ab75821cd9981ff4c636e37f0f791318825f8bf37f43660588cadbdcab492",
+      "amount_eth": 1399.99803277,
+      "amount_usd": 3499995.081925,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-14 16:47:27",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x78fcae3eebea020a7888fb1bd368a8b946d1d680687fdd0e62becb6ea2af10b7",
+      "amount_eth": 1349.996,
+      "amount_usd": 3374990.0000000005,
+      "from": "0xd897fe50cc3f57ddea02c8c21d5ff3eb03387310",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-07-06 18:59:27",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xf2805bd01bb08922d9937d3c3293b3523072a3c6947fd770103c46b7d8d67fcf",
+      "amount_eth": 1299.9964,
+      "amount_usd": 3249991.0,
+      "from": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-06-14 14:19:33",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x9e26fc7d3b84d2c19d45dd6fbe74a0775763ec45b16c5f01d607d71f12cf517d",
+      "amount_eth": 1232.8912576,
+      "amount_usd": 3082228.144,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-10-29 06:11:40",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x8496f4bfb6afbfc1753221388cd5782f85d36b22650b1a757c1cf54043422960",
+      "amount_eth": 1160.0041975,
+      "amount_usd": 2900010.49375,
+      "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-10-09 03:05:25",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xfb5cd7bc33f50af18f47a755e2011b078606cbd3026ac179544b66835a181a08",
+      "amount_eth": 1152.29814636,
+      "amount_usd": 2880745.3658999996,
+      "from": "0x3c979fb790c86e361738ed17588c1e8b4c4cc49a",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-10-07 03:21:11",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xddf48f62f2c51570342d3eef20f36637b8c206614d49a1fa7ff2fec6822d8d29",
+      "amount_eth": 1122.70333831,
+      "amount_usd": 2806758.345775,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-11-21 12:44:53",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xc24b3636dd232a35a97bcdda26be1f0e3b1e7974fc85b285cf6b62be78a39cd7",
+      "amount_eth": 1000.0,
+      "amount_usd": 2500000.0,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-21 12:51:13",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xdefcf2562d037c3defdf480a9246450199730b152ef6892f896bab3e60c7eece",
+      "amount_eth": 999.99918344,
+      "amount_usd": 2499997.9586,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-25 12:43:32",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xa766ac6cef70e60b04516633c8c11dcc16ffb5cfa3e7853ebd87a093fa1a3d54",
+      "amount_eth": 999.9965,
+      "amount_usd": 2499991.25,
+      "from": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-08-30 03:59:42",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x058a03c65da547cea179b182c02ef7ee53074fb75f6b66f3463f5062319dd527",
+      "amount_eth": 999.83718852,
+      "amount_usd": 2499592.9713000003,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-10-31 06:40:57",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x0d30745c7e1af7d2468640e829691cfa93c02f87bef2a838fed78245c12972b6",
+      "amount_eth": 949.99906912,
+      "amount_usd": 2374997.6728,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-03-02 07:21:04",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x7b17453a02a39178be999cbbd32470216e5346abca184d3ce1934137041d9906",
+      "amount_eth": 899.99974276,
+      "amount_usd": 2249999.3569,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-17 18:52:08",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xd858ee3c62664a1af45d798daa429c15e1fbf678fd238210be072cb0a282df3a",
+      "amount_eth": 830.20013212,
+      "amount_usd": 2075500.3303,
+      "from": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-06-16 03:39:16",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xc2492f11ee24efa21727ae3272b5a75fbb2f421d4a81d1e889f2b06438ed3a01",
+      "amount_eth": 799.99921044,
+      "amount_usd": 1999998.0261,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-03-02 07:12:56",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xede2f786341db9c1e9111c075c113ecedd0a7ecbe340f62ad31f2ad1a1125c2d",
+      "amount_eth": 796.94494984,
+      "amount_usd": 1992362.3746000002,
+      "from": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-09-11 13:33:33",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x30a1d0c5785d5f42135d4d86f70e06d2c6ebdbbe99ac160fd6ac9bf69dca7269",
+      "amount_eth": 699.999202,
+      "amount_usd": 1749998.005,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-03-25 12:38:54",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x79a8a22f47ec9496f0e7f81b9e538f45338122ef943ab92d7c05b09e132a4a9b",
+      "amount_eth": 634.996,
+      "amount_usd": 1587490.0,
+      "from": "0xa7efae728d2936e78bda97dc267687568dd593f3",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-10-29 09:58:47",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xf5f098485b56dc795bc09a66339a121bacaf471022ee6f58e0be4633c5b9cd66",
+      "amount_eth": 600.0,
+      "amount_usd": 1500000.0,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-12-21 15:18:44",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xae032ab0b2d87e873d97cf5c76720f27bc54bc53cbf784b195f282c18584d445",
+      "amount_eth": 500.31374131,
+      "amount_usd": 1250784.3532750001,
+      "from": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-12-21 04:42:02",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x6be470e98a70782a21f3671431ff10408af0a2b8e2ecd7bd1b72072ec85b2d54",
+      "amount_eth": 500.0,
+      "amount_usd": 1250000.0,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-01-10 06:03:51",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x23eb04c0d661db8dbc1b45cd73acfc1513c45748823baec777ad29f8d6fecf9b",
+      "amount_eth": 399.9964,
+      "amount_usd": 999991.0,
+      "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-06-14 13:15:30",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xe926b4369242b511a085628a801e14b6458201458a053f1d1db52bcfc0d7323e",
+      "amount_eth": 300.0,
+      "amount_usd": 750000.0,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-10-18 15:40:18",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x48be2b05f709c6701d97b8c31b51f7efc1c048fd02bc6ee598db7bc3004285b8",
+      "amount_eth": 299.9972013,
+      "amount_usd": 749993.00325,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-12-01 04:31:31",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x9abf1b3b1507722180388f03f9110f3253b1e99e70c66645565bd26a520e78bc",
+      "amount_eth": 299.995,
+      "amount_usd": 749987.5,
+      "from": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-01-02 09:09:13",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xb70381800ac83d5d810a8a6be8421be3c91cc249d185bb02ad18acad6b163d89",
+      "amount_eth": 299.99400794,
+      "amount_usd": 749985.01985,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-11-15 08:16:02",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xd119f311f558f9e94c0bc8877bdf18f80e8cc6c4eadd20205937a108da25b2e1",
+      "amount_eth": 249.995,
+      "amount_usd": 624987.5,
+      "from": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-09-10 06:27:20",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x4b326c9f4d36cf9f2e115061a78c1b36955d68009c7b329f9f248a0bb4a142a6",
+      "amount_eth": 211.0,
+      "amount_usd": 527500.0,
+      "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-02-26 03:06:56",
+      "chain": "eth"
+    },
+    {
+      "hash": "0xe4cb1b667b0cbb73b47b36f0cc9a1cc7c39e526f81e6a919fcd2d6dc39bd791d",
+      "amount_eth": 210.0,
+      "amount_usd": 525000.0,
+      "from": "0xa636b93a2682995c971dcafa7e367f5326912f6e",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2022-01-11 21:41:10",
+      "chain": "eth"
+    },
+    {
+      "hash": "0x7c205c35479751f51ccf62fcd5fafee8de14ee5822e4293ae570b5739aa0cbfc",
+      "amount_eth": 200.0,
+      "amount_usd": 500000.0,
+      "from": "0xd7b50738ff2f339563c8d330e171c66b2715367f",
+      "to": "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "date": "2021-06-28 05:20:49",
+      "chain": "eth"
+    }
+  ],
+  "stake_deposits": {
+    "count": 0,
+    "total_eth": 0.0,
+    "total_usd": 0.0,
+    "transactions": []
+  },
+  "mexc_usage": {
+    "count": 0,
+    "total_eth": 0.0,
+    "transactions": []
+  },
+  "wallet_clusters": [
+    {
+      "main_wallet": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 20824.98193201,
+      "total_volume_usd": 52062454.830025,
+      "transaction_count": 38
+    },
+    {
+      "main_wallet": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 4892.13532832,
+      "total_volume_usd": 12230338.320799999,
+      "transaction_count": 7
+    },
+    {
+      "main_wallet": "0x3c979fb790c86e361738ed17588c1e8b4c4cc49a",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 2652.29414636,
+      "total_volume_usd": 6630735.3659,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 2061.4617489,
+      "total_volume_usd": 5153654.372250001,
+      "transaction_count": 6
+    },
+    {
+      "main_wallet": "0xde8589960da34eefb00ca879d8cc12b11f52cb12",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 1989.7092332500001,
+      "total_volume_usd": 4974273.083125,
+      "transaction_count": 17
+    },
+    {
+      "main_wallet": "0x73f8fc2e74302eb2efda125a326655acf0dc2d1b",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 1799.996,
+      "total_volume_usd": 4499990.0,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0xd7b50738ff2f339563c8d330e171c66b2715367f",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 1601.255709158,
+      "total_volume_usd": 4003139.272895,
+      "transaction_count": 3
+    },
+    {
+      "main_wallet": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 1370.1039504999999,
+      "total_volume_usd": 3425259.8762499997,
+      "transaction_count": 3
+    },
+    {
+      "main_wallet": "0xd897fe50cc3f57ddea02c8c21d5ff3eb03387310",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 1349.996,
+      "total_volume_usd": 3374990.0000000005,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 1168.72129356,
+      "total_volume_usd": 2921803.2339000003,
+      "transaction_count": 6
+    },
+    {
+      "main_wallet": "0xa7efae728d2936e78bda97dc267687568dd593f3",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 759.348,
+      "total_volume_usd": 1898370.0,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "related_wallets": [
+        "0xc228eefe9e027e5565ce6e82e8c1158eec294674",
+        "0x5d38c16a8899a3124f5a94c4cd98722b2e1ca521",
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+        "0xc2e3e665ffe95ef25c60e202c3fdea2610c61a78"
+      ],
+      "total_volume_eth": 600.42175731,
+      "total_volume_usd": 1501054.393275,
+      "transaction_count": 6
+    },
+    {
+      "main_wallet": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 343.6905289,
+      "total_volume_usd": 859226.32225,
+      "transaction_count": 5
+    },
+    {
+      "main_wallet": "0x27e9f4748a2eb776be193a1f7dec2bb6daafe9cf",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 242.75892793,
+      "total_volume_usd": 606897.319825,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0xa636b93a2682995c971dcafa7e367f5326912f6e",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 225.0,
+      "total_volume_usd": 562500.0,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0xbd40733a2f223ff32195a759a81df25e35dd4dea",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 137.749113,
+      "total_volume_usd": 344372.7825,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0xd779967f8b511c5edf39115341b310022900efed",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 131.10090024762002,
+      "total_volume_usd": 327752.25061905006,
+      "transaction_count": 3
+    },
+    {
+      "main_wallet": "0x1c8238eb215814e918c2948a7b6d61e68e584b99",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 120.0,
+      "total_volume_usd": 300000.0,
+      "transaction_count": 3
+    },
+    {
+      "main_wallet": "0x43ad130ea8ecb09365b5307938b7ab0d83fb2a85",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 111.5,
+      "total_volume_usd": 278750.0,
+      "transaction_count": 4
+    },
+    {
+      "main_wallet": "0x10c6b61dbf44a083aec3780acf769c77be747e23",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 104.370525,
+      "total_volume_usd": 260926.3125,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0xb9f79fc4b7a2f5fb33493ab5d018db811c9c2f02",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 100.4737,
+      "total_volume_usd": 251184.24999999997,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0x5a4a53c631a271c2a7278f2796b9f024a786c779",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 99.9,
+      "total_volume_usd": 249750.0,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "related_wallets": [
+        "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+        "0x1eaca1277bcdfa83e60658d8938b3d63cd3e63c1",
+        "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+        "0xd19d4b5d358258f05d7b411e21a1460d11b0876f"
+      ],
+      "total_volume_eth": 80.51,
+      "total_volume_usd": 201275.0,
+      "transaction_count": 30
+    },
+    {
+      "main_wallet": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "related_wallets": [
+        "0xd07c4f45bc9b389d286cb094f97bb6ba45f4bb30",
+        "0x207e1074858a7e78f17002075739ed2745dbaece"
+      ],
+      "total_volume_eth": 75.52568727,
+      "total_volume_usd": 188814.21817500002,
+      "transaction_count": 227
+    },
+    {
+      "main_wallet": "0xe3ffc583dc176575eea7fd9df2a7c65f7e23f4c3",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 63.23571506,
+      "total_volume_usd": 158089.28764999998,
+      "transaction_count": 5
+    },
+    {
+      "main_wallet": "0x904a8e73c947a98f7058a849331cbab46a71c972",
+      "related_wallets": [
+        "0x28c6c06298d514db089934071355e5743bf21d60"
+      ],
+      "total_volume_eth": 29.99999063,
+      "total_volume_usd": 74999.976575,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "related_wallets": [
+        "0x000000000004444c5dc75cb358380d2e3de08a90"
+      ],
+      "total_volume_eth": 19.0456313,
+      "total_volume_usd": 47614.07825,
+      "transaction_count": 15
+    },
+    {
+      "main_wallet": "0xd07c4f45bc9b389d286cb094f97bb6ba45f4bb30",
+      "related_wallets": [
+        "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251",
+        "0xb60ca733a60c97008577de9443fbc1805444488a",
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 14.792072749999999,
+      "total_volume_usd": 36980.181874999995,
+      "transaction_count": 53
+    },
+    {
+      "main_wallet": "0x609c690e8f7d68a59885c9132e812eebdaaf0c9e",
+      "related_wallets": [
+        "0x01a494079dcb715f622340301463ce50cd69a4d0"
+      ],
+      "total_volume_eth": 12.39,
+      "total_volume_usd": 30975.0,
+      "transaction_count": 19
+    },
+    {
+      "main_wallet": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "related_wallets": [
+        "0x965b104e250648d01d4b3b72bac751cde809d29e",
+        "0x86ca30bef97fb651b8d866d45503684b90cb3312",
+        "0x6576696d043e5ee07f00711e7ea9f101ef86b333",
+        "0x10498cbbe46946ca5b0d86cb5a5b225000a7a3a7",
+        "0xb49c4e680174e331cb0a7ff3ab58afc9738d5f8b",
+        "0xa675a4afc18e11ba90ee96cffea867bd3b2e842c",
+        "0x2297aebd383787a160dd0d9f71508148769342e3",
+        "0xe030543b943bdcd6559711ec8d344389c66e1d56",
+        "0xd5b450646037a9d98f4a6705b2d0d1da44e629d0",
+        "0x5e325eda8064b456f4781070c0738d849c824258",
+        "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
+      ],
+      "total_volume_eth": 10.90441431,
+      "total_volume_usd": 27261.035775,
+      "transaction_count": 67
+    },
+    {
+      "main_wallet": "0x203e8785b4d4312c4152d0c42ba3fa8bd79086da",
+      "related_wallets": [
+        "0x01a494079dcb715f622340301463ce50cd69a4d0"
+      ],
+      "total_volume_eth": 10.344359,
+      "total_volume_usd": 25860.897500000003,
+      "transaction_count": 21
+    },
+    {
+      "main_wallet": "0x5eedd393ff9fe7dfed15fc38d754ed697c35c222",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 10.0748,
+      "total_volume_usd": 25187.0,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 9.05698186,
+      "total_volume_usd": 22642.45465,
+      "transaction_count": 8
+    },
+    {
+      "main_wallet": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "related_wallets": [
+        "0xd07c4f45bc9b389d286cb094f97bb6ba45f4bb30"
+      ],
+      "total_volume_eth": 5.73821197,
+      "total_volume_usd": 14345.529925,
+      "transaction_count": 20
+    },
+    {
+      "main_wallet": "0xb60ca733a60c97008577de9443fbc1805444488a",
+      "related_wallets": [
+        "0x0000000000001ff3684f28c67538d4d072c22734",
+        "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
+      ],
+      "total_volume_eth": 5.64065877,
+      "total_volume_usd": 14101.646925,
+      "transaction_count": 45
+    },
+    {
+      "main_wallet": "0xca5f6c8d9c1de974e47eff1f7fa7bd5abe68a5e0",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 4.921003267735033,
+      "total_volume_usd": 12302.508169337583,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 4.349,
+      "total_volume_usd": 10872.5,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 4.08107676,
+      "total_volume_usd": 10202.6919,
+      "transaction_count": 5
+    },
+    {
+      "main_wallet": "0x7f02294f065a605c8d21d9812b8d1de7e5e1da74",
+      "related_wallets": [
+        "0x01a494079dcb715f622340301463ce50cd69a4d0"
+      ],
+      "total_volume_eth": 3.87609,
+      "total_volume_usd": 9690.225,
+      "transaction_count": 13
+    },
+    {
+      "main_wallet": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "related_wallets": [
+        "0x28c6c06298d514db089934071355e5743bf21d60"
+      ],
+      "total_volume_eth": 3.6163577,
+      "total_volume_usd": 9040.89425,
+      "transaction_count": 4
+    },
+    {
+      "main_wallet": "0x77b2043768d28e9c9ab44e1abfc95944bce57931",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 3.226421,
+      "total_volume_usd": 8066.052500000001,
+      "transaction_count": 5
+    },
+    {
+      "main_wallet": "0xf48f38d9abc7037883a6890ab26daf26a05c50d1",
+      "related_wallets": [
+        "0x66b870ddf78c975af5cd8edc6de25eca81791de1"
+      ],
+      "total_volume_eth": 3.08000892,
+      "total_volume_usd": 7700.0223000000005,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "related_wallets": [
+        "0x63793f12b9fbd30ed1c997cfe82480981b054640",
+        "0xd07c4f45bc9b389d286cb094f97bb6ba45f4bb30",
+        "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+        "0x63242a4ea82847b20e506b63b0e2e2eff0cc6cb0",
+        "0x111111125421ca6dc452d289314280a0f8842a65"
+      ],
+      "total_volume_eth": 2.9998730300000003,
+      "total_volume_usd": 7499.682575000001,
+      "transaction_count": 12
+    },
+    {
+      "main_wallet": "0x74de5d4fcbf63e00296fd95d33236b9794016631",
+      "related_wallets": [
+        "0x0000000000001ff3684f28c67538d4d072c22734"
+      ],
+      "total_volume_eth": 2.11664984,
+      "total_volume_usd": 5291.6246,
+      "transaction_count": 53
+    },
+    {
+      "main_wallet": "0x77cb663bb1ffca1e5788f724d68a1660e3ef9261",
+      "related_wallets": [
+        "0x28c6c06298d514db089934071355e5743bf21d60"
+      ],
+      "total_volume_eth": 1.87754054,
+      "total_volume_usd": 4693.85135,
+      "transaction_count": 2
+    },
+    {
+      "main_wallet": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 1.86432981,
+      "total_volume_usd": 4660.824525,
+      "transaction_count": 3
+    },
+    {
+      "main_wallet": "0x6cc7ebb733968645bd0ad8cb714b019f13bb6e8d",
+      "related_wallets": [
+        "0x28c6c06298d514db089934071355e5743bf21d60"
+      ],
+      "total_volume_eth": 1.81498397,
+      "total_volume_usd": 4537.459925,
+      "transaction_count": 1
+    },
+    {
+      "main_wallet": "0x72e2f4830b9e45d52f80ac08cb2bec0fef72ed9c",
+      "related_wallets": [
+        "0x7d8378d189831f25e184621a1cc026fc99f9c48c"
+      ],
+      "total_volume_eth": 1.65391678,
+      "total_volume_usd": 4134.79195,
+      "transaction_count": 3
+    },
+    {
+      "main_wallet": "0x80c67432656d59144ceff962e8faf8926599bcf8",
+      "related_wallets": [
+        "0x4f368e2d4612fef0b923667d19183785a5d3c950"
+      ],
+      "total_volume_eth": 1.5410070000000016,
+      "total_volume_usd": 3852.517500000004,
+      "transaction_count": 7
+    },
+    {
+      "main_wallet": "0x4bd665ab61c5435e3f979234dc37cfc60ffd03d2",
+      "related_wallets": [
+        "0x28c6c06298d514db089934071355e5743bf21d60"
+      ],
+      "total_volume_eth": 1.3690612,
+      "total_volume_usd": 3422.653,
+      "transaction_count": 1
+    }
+  ],
+  "total_proceeds_usd": 107726814.65584415,
+  "summary": {
+    "large_transfers_count": 40,
+    "stake_deposits_count": 0,
+    "mexc_usage_count": 0,
+    "unique_wallets": 50,
+    "total_volume_eth": 43090.72586233766,
+    "tier1_threshold_eth": 200
+  }
+}

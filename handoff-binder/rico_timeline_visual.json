@@ -1,0 +1,627 @@
+{
+  "generated_at": "2025-11-21T02:07:48.983533",
+  "timeframe": "1993-2025",
+  "statistics": {
+    "total_years": 33,
+    "years_with_evidence": 11,
+    "total_events": 4,
+    "total_evidence_items": 42
+  },
+  "timeline": {
+    "1993": {
+      "year": 1993,
+      "key_events": [
+        {
+          "date": "1993",
+          "event": "Efraim Shurka convicted of fraud",
+          "significance": "Establishes 30-year pattern of fraud schemes",
+          "evidence_tier": "TIER1"
+        }
+      ],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_0_0",
+          "date": "1993",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_0_0",
+          "date": "1993",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "1994": {
+      "year": 1994,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "1995": {
+      "year": 1995,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "1996": {
+      "year": 1996,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "1997": {
+      "year": 1997,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "1998": {
+      "year": 1998,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "1999": {
+      "year": 1999,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2000": {
+      "year": 2000,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_narrative_2006 jason shurka.pdf_4",
+          "date": "2000",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2001": {
+      "year": 2001,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2002": {
+      "year": 2002,
+      "key_events": [
+        {
+          "date": "2002-12-17",
+          "event": "Creditor-proof agreement signed",
+          "significance": "Documented asset protection scheme",
+          "evidence_tier": "TIER1"
+        }
+      ],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_0_1",
+          "date": "Jan 18, 2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_0_2",
+          "date": "2002\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_0_1",
+          "date": "Jan 18, 2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_0_2",
+          "date": "2002\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_01_Executive_Summary.md_199",
+          "date": "2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_2025-10-24 #117 UNIFYD_s Anti-Slapp MTD.pdf_7",
+          "date": "2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_1",
+          "date": "Jan 18, 2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_3",
+          "date": "2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_6",
+          "date": "Jan 18, 2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_8",
+          "date": "2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_17",
+          "date": "2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_107",
+          "date": "2002",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2003": {
+      "year": 2003,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_1_0",
+          "date": "Oct 31, 2003",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_1_0",
+          "date": "Oct 31, 2003",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_2",
+          "date": "Oct 31, 2003",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_All notes 11_19_2025_7",
+          "date": "Oct 31, 2003",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2004": {
+      "year": 2004,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2005": {
+      "year": 2005,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_narrative_2006 jason shurka.pdf_2",
+          "date": "2005",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2006": {
+      "year": 2006,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2007": {
+      "year": 2007,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2008": {
+      "year": 2008,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2009": {
+      "year": 2009,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2010": {
+      "year": 2010,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2011": {
+      "year": 2011,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_0_3",
+          "date": "Sept 2011",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_0_3",
+          "date": "Sept 2011",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2012": {
+      "year": 2012,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_0_4",
+          "date": "2012\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_0_4",
+          "date": "2012\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2013": {
+      "year": 2013,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2014": {
+      "year": 2014,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2015": {
+      "year": 2015,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2016": {
+      "year": 2016,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2017": {
+      "year": 2017,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2018": {
+      "year": 2018,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2019": {
+      "year": 2019,
+      "key_events": [
+        {
+          "date": "2019",
+          "event": "Blockchain-based fraud schemes begin",
+          "significance": "Transition to cryptocurrency for asset concealment",
+          "evidence_tier": "TIER1"
+        }
+      ],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2020": {
+      "year": 2020,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2021": {
+      "year": 2021,
+      "key_events": [],
+      "evidence_items": [],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2022": {
+      "year": 2022,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_narrative_2025-10-24 #118 Appendix of Exhibits to UNIFYD_0",
+          "date": "November 4, 2022",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2023": {
+      "year": 2023,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_1_3",
+          "date": "2023\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_1_4",
+          "date": "2023\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_1_3",
+          "date": "2023\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_1_4",
+          "date": "2023\u20132025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_2025-10-24 #117 UNIFYD_s Anti-Slapp MTD.pdf_0",
+          "date": "September 18, 2023",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_2025-10-24 #117 UNIFYD_s Anti-Slapp MTD.pdf_9",
+          "date": "September 18, 2023",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2024": {
+      "year": 2024,
+      "key_events": [],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_1_1",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic(1)_1_2",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_1_1",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_RICO Patterns Dossier_ Shurka Enterprise Indic_1_2",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_Shurka Family Criminal Enterprise_ Fraud and E_0",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_Shurka Family Enterprise, UNIFYD, and EESystem_0",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_The Shurka-Havakuk Criminal Enterprise Dossier_0",
+          "date": "Nov 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_01_Executive_Summary.md_46",
+          "date": "November 6, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_2025-10-24 #117 UNIFYD_s Anti-Slapp MTD.pdf_4",
+          "date": "January 14, 2024",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    },
+    "2025": {
+      "year": 2025,
+      "key_events": [
+        {
+          "date": "2025",
+          "event": "Ongoing fraud schemes documented",
+          "significance": "Continuous pattern through present day",
+          "evidence_tier": "TIER1"
+        }
+      ],
+      "evidence_items": [
+        {
+          "item_id": "shadowlens_narrative_Shurka Family Criminal Enterprise_ Structure a_0",
+          "date": "2025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        },
+        {
+          "item_id": "shadowlens_narrative_2025-10-24 #117 UNIFYD_s Anti-Slapp MTD.pdf_6",
+          "date": "January 2, 2025",
+          "tier": 2,
+          "type": 10,
+          "description": ""
+        }
+      ],
+      "rico_predicates": [],
+      "entity_formations": [],
+      "blockchain_transactions": []
+    }
+  },
+  "key_milestones": [
+    {
+      "year": 1993,
+      "milestone": "Efraim Shurka conviction - Pattern begins"
+    },
+    {
+      "year": 2002,
+      "milestone": "Creditor-proof agreement - Documented scheme"
+    },
+    {
+      "year": 2019,
+      "milestone": "Blockchain era begins"
+    },
+    {
+      "year": 2025,
+      "milestone": "Present - Ongoing schemes"
+    }
+  ]
+}

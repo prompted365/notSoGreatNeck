@@ -1,0 +1,432 @@
+[ 64M]  .
+├── [273K]  agents
+│   ├── [1.3K]  Binder_Chunker
+│   │   └── [1.2K]  CONTEXT-BINDER_CHUNKER.md
+│   ├── [ 12K]  Blockchain_Forensics
+│   │   ├── [  64]  archive
+│   │   └── [ 12K]  CONTEXT-BLOCKCHAIN_FORENSICS.md
+│   ├── [ 41K]  Corpus_Validator
+│   │   ├── [ 13K]  CONTEXT-CORPUS_VALIDATOR.md
+│   │   ├── [ 10K]  CORPUS_VALIDATOR_COMPLETION_REPORT.md
+│   │   └── [ 18K]  revalidate_evidence.py
+│   ├── [1.8K]  Dashboard_Coordinator
+│   │   └── [1.7K]  CONTEXT-DASHBOARD_COORDINATOR.md
+│   ├── [6.8K]  Entity_Linker
+│   │   └── [6.7K]  CONTEXT-ENTITY_LINKER.md
+│   ├── [1.9K]  Fraud_Scorer
+│   │   └── [1.8K]  CONTEXT-FRAUD_SCORER.md
+│   ├── [ 16K]  Gap_Filler
+│   │   └── [ 16K]  CONTEXT-GAP_FILLER.md
+│   ├── [132K]  Gap_Filler_Reactive
+│   │   ├── [ 29K]  ARCHITECTURE_DIAGRAM.txt
+│   │   ├── [8.7K]  dashboard.js
+│   │   ├── [ 11K]  DEPLOYMENT_REPORT.md
+│   │   ├── [ 14K]  EXECUTIVE_SUMMARY.txt
+│   │   ├── [ 12K]  INDEX.md
+│   │   ├── [ 11K]  INTEGRATION_GUIDE.md
+│   │   ├── [ 507]  package.json
+│   │   ├── [3.8K]  QUICK_REFERENCE.md
+│   │   ├── [ 14K]  reactive_processor.js
+│   │   ├── [5.3K]  README.md
+│   │   ├── [1010]  start.sh
+│   │   ├── [ 16K]  SYSTEM_SUMMARY.md
+│   │   ├── [1.6K]  test.sh
+│   │   └── [3.2K]  trigger_simulator.js
+│   ├── [8.6K]  Pillar_Scout
+│   │   └── [8.5K]  CONTEXT-PILLAR_SCOUT.md
+│   ├── [2.2K]  ReasoningBank_Manager
+│   │   └── [2.1K]  CONTEXT-REASONINGBANK_MANAGER.md
+│   ├── [ 10K]  shadowLens_Analyst
+│   │   └── [ 10K]  CONTEXT-SHADOWLENS_ANALYST.md
+│   ├── [ 22K]  Subpoena_Coordinator
+│   │   └── [ 22K]  CONTEXT-SUBPOENA_COORDINATOR.md
+│   ├── [ 15K]  TIER_Auditor
+│   │   ├── [  64]  archive
+│   │   └── [ 15K]  CONTEXT-TIER_AUDITOR.md
+│   └── [1.4K]  URL_Analyst
+│       └── [1.3K]  CONTEXT-URL_ANALYST.md
+├── [ 20K]  AI_AGENT_README.md
+├── [2.0K]  archive
+│   └── [1.9K]  phase1-2
+│       ├── [ 608]  data
+│       ├── [ 736]  reports
+│       ├── [  64]  scripts
+│       └── [ 320]  visualizations
+├── [ 12K]  AUTONOMOUS_MULTI_PHASE_ARCHITECTURE.md
+├── [1.0K]  claude-flow
+├── [ 13K]  CLAUDE.md
+├── [ 24K]  CONTEXT-CERT1.md
+├── [ 20K]  CONTINUOUS_LOOP_EXECUTION_REPORT.md
+├── [ 17K]  CONTINUOUS_LOOP_INDEX.md
+├── [ 17K]  CONTINUOUS_LOOP_README.md
+├── [ 15K]  CONTINUOUS_LOOP_SUMMARY.txt
+├── [ 52M]  coordination
+│   ├── [4.0K]  agent_messages.json
+│   ├── [1.2M]  approved_evidence_list.json
+│   ├── [ 25K]  asset_concealment_patterns.json
+│   ├── [ 97K]  attribution_scores.json
+│   ├── [ 252]  backward_search_reddit_victim_001.json
+│   ├── [2.9K]  binder_chunker_report.json
+│   ├── [626K]  binder_chunks.json
+│   ├── [ 11K]  binder_cluster_labels.json
+│   ├── [ 14K]  blind_spots.json
+│   ├── [325K]  blockchain_data_extracted.json
+│   ├── [5.5K]  blockchain_forensics_summary.txt
+│   ├── [1.4M]  blockchain_validated_evidence.json
+│   ├── [158K]  borderline_items.json
+│   ├── [ 24K]  case_narrative_threads.json
+│   ├── [ 12K]  CERT_ANALYTICS_PACKAGE_README.md
+│   ├── [ 39K]  cert_file_chunks.json
+│   ├── [ 16K]  CERT_INTEGRATION_STATUS.md
+│   ├── [ 15K]  CERT_MISSION_COMPLETE.md
+│   ├── [371K]  citation_database.json
+│   ├── [ 85K]  citation_index.json
+│   ├── [ 30K]  citation_linker_builder.py
+│   ├── [ 13K]  CITATION_LINKER_EXECUTIVE_SUMMARY.md
+│   ├── [ 39K]  citation_master_index.md
+│   ├── [ 21K]  citation_report_clusters.md
+│   ├── [4.3K]  citation_report_entities.md
+│   ├── [1.6K]  citation_search_log.json
+│   ├── [ 13K]  CITATION_SEARCHER_EXECUTION_SUMMARY.md
+│   ├── [ 13K]  CITATION_SEARCHER_INDEX.md
+│   ├── [2.8K]  CITATION_SEARCHER_QUICKSTART.md
+│   ├── [ 13K]  CITATION_SEARCHER_README.md
+│   ├── [ 19K]  citation_searcher.py
+│   ├── [193K]  cluster_size_distribution.png
+│   ├── [225K]  cluster_visualization_umap.png
+│   ├── [ 845]  continuous_loop_state.json
+│   ├── [7.3K]  continuous_loop.log
+│   ├── [ 19K]  CONTINUOUS_ORGANIZER_EXECUTIVE_SUMMARY.md
+│   ├── [ 22K]  corporate_structure.json
+│   ├── [ 440]  corpus_mentions_by_item.json
+│   ├── [ 12K]  CORPUS_VALIDATOR_EXECUTION_SUMMARY.md
+│   ├── [1015]  corpus_validator_report.json
+│   ├── [136K]  cross_reference_matrix_live.json
+│   ├── [133K]  cross_reference_matrix.json
+│   ├── [   3]  cross_reference_updates.json
+│   ├── [ 11K]  dashboard_coordinator_handoff.json
+│   ├── [ 87K]  document_cluster_assignments.json
+│   ├── [  77]  eesystem_safeguard_violations.json
+│   ├── [ 863]  entity_co_mentions.json
+│   ├── [7.4K]  entity_network_stats.json
+│   ├── [ 14K]  entity_relationship_map.json
+│   ├── [   3]  entity_updates_live.json
+│   ├── [110K]  evidence_audit_report.json
+│   ├── [9.9K]  evidence_integration_template.json
+│   ├── [ 11K]  EVIDENCE_INTEGRATOR_SUMMARY.md
+│   ├── [3.8K]  evidence_integrator.state.json
+│   ├── [ 13K]  evidence_inventory_v2.json
+│   ├── [3.7K]  evidence_inventory_v3_victim_entry.json
+│   ├── [ 19K]  evidence_inventory_v4.json
+│   ├── [ 14K]  evidence_linkages.json
+│   ├── [1.3K]  evidence_loading_report.json
+│   ├── [ 858]  evidence_strength_heatmap.json
+│   ├── [ 285]  evidence_summary_stats.json
+│   ├── [8.0K]  EVIDENCE_SYNTHESIS_EXECUTIVE_SUMMARY.md
+│   ├── [ 22K]  evidence_synthesizer.py
+│   ├── [657K]  evidence_to_corpus_mapping.json
+│   ├── [ 35K]  exchange_fingerprints.json
+│   ├── [1.4M]  flagged_for_manual_review.json
+│   ├── [ 14K]  fraud_patterns.json
+│   ├── [3.1K]  fraud_scorer_handoff.json
+│   ├── [1.6K]  fraud_scores.csv
+│   ├── [6.6K]  gap_analysis_loop3.json
+│   ├── [ 65K]  gap_fill_input_batch2.json
+│   ├── [ 66K]  gap_fill_input.json
+│   ├── [1.1K]  gap_fill_reactive_log.json
+│   ├── [3.2K]  gap_fill_report.json
+│   ├── [226K]  gap_fill_results.json
+│   ├── [3.9K]  GAP_FILLER_COMPLETION_SUMMARY.txt
+│   ├── [2.9K]  gap_filler_executive_summary.json
+│   ├── [ 13K]  GAP_FILLER_MISSION_REPORT.md
+│   ├── [4.8K]  gap_filler_phase1b_completion.json
+│   ├── [ 11K]  GAP_FILLER_PHASE1B_DETAILED_REPORT.md
+│   ├── [ 12K]  global_scope_state.json
+│   ├── [ 243]  high_priority_flags.json
+│   ├── [8.2K]  HTML_ANALYSIS_README.md
+│   ├── [3.5K]  html_analysis_summary.txt
+│   ├── [ 17K]  html_analyzer.py
+│   ├── [ 11K]  html_cooccurrence_edges.csv
+│   ├── [ 34K]  html_cooccurrence_network.json
+│   ├── [ 19K]  html_indicator_counts.json
+│   ├── [9.0K]  html_indicator_matrix.csv
+│   ├── [628K]  html_tfidf_scores.json
+│   ├── [3.2K]  html_top_tfidf_terms.csv
+│   ├── [2.0M]  html_word_frequencies_backup.json
+│   ├── [2.0M]  html_word_frequencies.json
+│   ├── [164K]  indicator_barchart.png
+│   ├── [324K]  indicator_cooccurrence_heatmap.png
+│   ├── [ 15K]  INTELLIGENCE_REPORT_INTEGRATION_SUMMARY.md
+│   ├── [ 17K]  laundering_patterns.json
+│   ├── [   3]  live_evidence_feed.json
+│   ├── [1.1K]  loop5_state.json
+│   ├── [ 76K]  master_evidence_map.json
+│   ├── [  64]  memory_bank
+│   ├── [ 815]  missing_evidence_ids.json
+│   ├── [ 13K]  MISSION_VALIDATION_REPORT.txt
+│   ├── [265K]  network_communities.png
+│   ├── [180K]  network_document_topics.png
+│   ├── [213K]  network_entity_clusters.png
+│   ├── [ 40K]  network_graph.graphml
+│   ├── [ 17K]  NETWORK_GRAPHER_COMPLETION_REPORT.md
+│   ├── [ 23K]  network_interactive.html
+│   ├── [6.3K]  network_statistics.json
+│   ├── [  64]  orchestration
+│   ├── [ 14K]  payment_flows.json
+│   ├── [7.6K]  phase_2a_executive_summary.json
+│   ├── [1.3M]  phase3_revalidated_evidence.json
+│   ├── [7.8K]  PHASE4_WAVE1_COMPLETE.md
+│   ├── [ 15K]  PHASE5_YOUTUBE_ARCHIVAL_SUMMARY.txt
+│   ├── [7.6K]  PILLAR_09_LEGAL_PROCEEDINGS.json
+│   ├── [ 15K]  PILLAR_10_SOCIAL_MEDIA_COMPLAINTS.json
+│   ├── [ 14K]  PILLAR_11_REGULATORY_VIOLATIONS.json
+│   ├── [   3]  pillar_courts_live.json
+│   ├── [ 92K]  pillar_discovery
+│   │   ├── [ 12K]  PHASE5_EXECUTIVE_SUMMARY.md
+│   │   ├── [8.7K]  pillar_business_intelligence.json
+│   │   ├── [6.0K]  pillar_content_analysis.json
+│   │   ├── [6.9K]  pillar_court_records.json
+│   │   ├── [8.3K]  pillar_crypto_intelligence.json
+│   │   ├── [ 20K]  pillar_discovery_summary.json
+│   │   ├── [6.0K]  pillar_domain_intelligence.json
+│   │   ├── [8.0K]  pillar_news_press.json
+│   │   ├── [9.3K]  pillar_professional_network.json
+│   │   └── [6.5K]  pillar_reddit_victims.json
+│   ├── [   3]  pillar_reddit_live.json
+│   ├── [   3]  pillar_video_live.json
+│   ├── [ 21K]  prosecution_package_live.json
+│   ├── [   3]  prosecution_readiness_live.json
+│   ├── [ 50K]  provenance_chains.json
+│   ├── [ 178]  qdrant_collection_info.json
+│   ├── [9.1K]  QDRANT_COMPLETION_REPORT.md
+│   ├── [339K]  qdrant_embeddings_metadata.json
+│   ├── [7.3K]  QDRANT_QUICK_START.md
+│   ├── [ 17K]  qdrant_test_searches.json
+│   ├── [ 11K]  quality_spot_check.json
+│   ├── [ 18K]  readiness_dashboard.json
+│   ├── [ 10K]  reasoningbank_handoff.md
+│   ├── [ 14K]  reddit_comment_low_strain35_nju1r8g.json
+│   ├── [439K]  reddit_thread_1o6a60x_full.json
+│   ├── [ 890]  reddit_victim_001.json
+│   ├── [ 811]  reddit_victim_002.json
+│   ├── [8.2K]  reddit_victim_low_strain35_analysis.json
+│   ├── [ 14K]  REDDIT_VICTIM_OUTREACH_EXECUTIVE_SUMMARY.md
+│   ├── [ 19K]  rico_enterprise_diagram.json
+│   ├── [ 16K]  rico_timeline_1993_2025.json
+│   ├── [620K]  rico_value_assessment.json
+│   ├── [4.4K]  run_citation_searcher.sh
+│   ├── [ 435]  run_manifest.json
+│   ├── [ 12K]  SEMANTIC_CLUSTERER_COMPLETION_REPORT.txt
+│   ├── [ 52K]  semantic_clusters.json
+│   ├── [492K]  shadowlens_evidence.json
+│   ├── [6.2K]  shadowlens_temporal_validator.py
+│   ├── [ 237]  soundness_reddit_victim_001.json
+│   ├── [ 406]  source_strength_scores.json
+│   ├── [9.4K]  source_verification.json
+│   ├── [164K]  spot_check_samples.json
+│   ├── [ 11K]  SUBPOENA_COORDINATOR_COMPLETION_SUMMARY.txt
+│   ├── [1.2K]  subpoena_coordinator_report.json
+│   ├── [4.7K]  subpoena_package.md
+│   ├── [6.8K]  subpoena_targets.json
+│   ├── [133K]  subpoena_working_data.json
+│   ├── [  64]  subtasks
+│   ├── [ 13K]  SYNTHESIS_KEY_INSIGHTS.txt
+│   ├── [ 86K]  temporal_validation.json
+│   ├── [ 325]  tier_assignment_reddit_victim_001.json
+│   ├── [242K]  tier_audit_results.json
+│   ├── [8.6K]  TIER_AUDIT_SUMMARY.md
+│   ├── [2.1K]  tier_recalculation_triggers.json
+│   ├── [ 359]  tier_updates_log.json
+│   ├── [  18]  tier_upgrade_queue.txt
+│   ├── [  66]  tier_upgrades_live.json
+│   ├── [5.0K]  tier2_items_analysis.json
+│   ├── [ 83K]  topic_distribution.png
+│   ├── [4.5K]  topic_model.json
+│   ├── [257K]  transaction_network.json
+│   ├── [ 14K]  UNBLOCK_EVIDENCE_INTEGRATOR.md
+│   ├── [119K]  url_classifications.csv
+│   ├── [ 26K]  url_fraud_legal_review.json
+│   ├── [214K]  validated_evidence.json
+│   ├── [  18]  validation_queue.txt
+│   ├── [1.3K]  validation_terms.json
+│   ├── [   3]  victim_correlations_live.json
+│   ├── [9.5K]  victim_corroboration.json
+│   ├── [ 13K]  victim_impact_analysis.json
+│   ├── [7.3K]  victim_outreach_message.md
+│   ├── [ 912]  video_archive_manifest.json
+│   ├── [ 22K]  visual_evidence_maps.json
+│   ├── [ 15K]  wallet_clusters.json
+│   ├── [ 31K]  wallet_data_extracted.json
+│   ├── [8.3K]  WORD_CLOUD_GENERATOR_REPORT.md
+│   ├── [3.1M]  wordcloud_chunk_01_telegram.png
+│   ├── [3.4M]  wordcloud_chunk_02_blockchain.png
+│   ├── [3.3M]  wordcloud_chunk_03_legal.png
+│   ├── [3.4M]  wordcloud_chunk_04_financial.png
+│   ├── [3.5M]  wordcloud_chunk_05_websites.png
+│   ├── [3.6M]  wordcloud_chunk_06_communications.png
+│   ├── [3.5M]  wordcloud_chunk_07_documents.png
+│   ├── [3.2M]  wordcloud_chunk_08_data.png
+│   ├── [5.9M]  wordcloud_global_all_chunks.png
+│   ├── [ 11K]  YOUTUBE_ARCHIVAL_INDEX.md
+│   ├── [ 12K]  YOUTUBE_ARCHIVAL_MISSION_REPORT.md
+│   ├── [8.6K]  YOUTUBE_EXECUTION_GUIDE.md
+│   ├── [ 11K]  youtube_fraud_analysis.json
+│   ├── [ 14K]  youtube_metadata.json
+│   └── [ 13K]  youtube_target_videos.json
+├── [ 74K]  dashboard
+│   ├── [ 13K]  blockchain_flow.html
+│   ├── [ 11K]  corpus_coverage.html
+│   ├── [9.6K]  eesystem_safeguard_report.html
+│   ├── [9.0K]  evidence_distribution.html
+│   ├── [ 14K]  fraud_url_network.html
+│   ├── [7.9K]  principal_network.html
+│   └── [9.5K]  rico_timeline.html
+├── [   0]  DIRECTORY_TREE.txt
+├── [ 672]  evidence-archive
+│   └── [ 576]  youtube
+│       ├── [  96]  checksums
+│       ├── [  64]  metadata
+│       ├── [  64]  thumbnails
+│       ├── [  64]  transcripts
+│       └── [  64]  videos
+├── [603K]  handoff-binder
+│   ├── [ 11K]  COMPLETION_SUMMARY.txt
+│   ├── [418K]  evidence_inventory.json
+│   ├── [ 10K]  loop_summary.json
+│   ├── [ 16K]  PHASE4_EXECUTIVE_SUMMARY.md
+│   ├── [ 15K]  PHASE4A_COMPLETION_REPORT.md
+│   ├── [6.8K]  prosecution_readiness_report.json
+│   ├── [2.1K]  qa_completeness_validation.json
+│   ├── [2.2K]  qa_cross_reference.json
+│   ├── [ 19K]  qa_file_existence.json
+│   ├── [ 37K]  qa_structure_validation.json
+│   ├── [7.7K]  QA_VALIDATION_COMPLETE.txt
+│   ├── [3.8K]  quality_assurance_report.json
+│   ├── [ 16K]  rico_timeline_visual.json
+│   ├── [ 17K]  subpoena_package_final.md
+│   └── [ 19K]  subpoena_targets.json
+├── [8.0K]  LEGAL_SAFEGUARDS.md
+├── [732K]  lib
+│   ├── [6.3K]  bindings
+│   │   └── [6.2K]  utils.js
+│   ├── [ 53K]  tom-select
+│   │   ├── [ 44K]  tom-select.complete.min.js
+│   │   └── [9.1K]  tom-select.css
+│   └── [673K]  vis-9.1.2
+│       ├── [215K]  vis-network.css
+│       └── [458K]  vis-network.min.js
+├── [7.7K]  memory
+│   ├── [1.3K]  agents
+│   │   └── [1.2K]  README.md
+│   ├── [  65]  claude-flow@alpha-data.json
+│   ├── [1.5K]  evidence_manifest.json
+│   ├── [3.0K]  gaps.json
+│   ├── [1.3K]  sessions
+│   │   └── [1.3K]  README.md
+│   └── [ 210]  validation_checkpoint.json
+├── [ 14K]  PHASE_2A_COMPLETION_REPORT.txt
+├── [ 18K]  PHASE3_DEFENSIVE_METRICS_AUDIT.md
+├── [ 24K]  PHASE3_FINAL_REPORT.md
+├── [ 12K]  PHASE4_AUTONOMOUS_SYSTEM.md
+├── [6.8K]  PHASE4A_TASK_SUMMARY.txt
+├── [ 865]  qdrant_db
+│   ├── [ 192]  collection
+│   │   └── [  96]  shurka_corpus
+│   └── [ 513]  meta.json
+├── [8.8K]  QUICK_START.txt
+├── [ 12K]  README.md
+├── [566K]  scripts
+│   ├── [3.0K]  00_cert_background_monitor.sh
+│   ├── [9.8K]  01_chunk_identifier.py
+│   ├── [4.1K]  01_extract_validation_terms.py
+│   ├── [7.7K]  02_corpus_mapper.py
+│   ├── [7.2K]  03_validation_orchestrator.py
+│   ├── [7.6K]  04_update_global_scope.py
+│   ├── [6.6K]  05_manual_review.py
+│   ├── [5.8K]  06_generate_evidence_manifest.py
+│   ├── [7.3K]  07_generate_gaps.py
+│   ├── [4.0K]  autonomous_phase_controller.sh
+│   ├── [3.2K]  backward_citation_search.sh
+│   ├── [ 13K]  binder_chunker_fine.py
+│   ├── [ 14K]  binder_chunker.py
+│   ├── [2.6K]  cert1_continuous_discovery.sh
+│   ├── [ 19K]  corpus_validator.py
+│   ├── [4.7K]  cycle1_reddit_discovery.sh
+│   ├── [5.0K]  cycle2_court_discovery.sh
+│   ├── [5.3K]  cycle3_video_discovery.sh
+│   ├── [6.0K]  cycle4_victim_correlation.sh
+│   ├── [6.4K]  cycle5_linkedin_discovery.sh
+│   ├── [4.3K]  evidence_builder.sh
+│   ├── [ 16K]  gap_filler_main.py
+│   ├── [232K]  generators
+│   │   ├── [9.9K]  binder_chunker.py
+│   │   ├── [ 10K]  blockchain_forensics.py
+│   │   ├── [ 10K]  build_entity_network.py
+│   │   ├── [ 20K]  create_final_visualizations.py
+│   │   ├── [ 12K]  create_professional_visualizations.py
+│   │   ├── [ 19K]  extract_blockchain_evidence.py
+│   │   ├── [9.0K]  fraud_scorer.py
+│   │   ├── [6.3K]  full_analysis_summary.py
+│   │   ├── [ 16K]  generate_enhanced_viz7_with_real_entities.py
+│   │   ├── [2.1K]  generate_top50_report.py
+│   │   ├── [ 14K]  generate_viz_456.py
+│   │   ├── [ 12K]  generate_viz.py
+│   │   ├── [ 30K]  generate_viz7_and_dashboard_v2.py
+│   │   ├── [ 19K]  load_evidence_to_reasoningbank.py
+│   │   ├── [ 23K]  tier_audit_phase3.py
+│   │   ├── [9.1K]  update_rico_dashboard_telegram.py
+│   │   └── [8.7K]  url_analysis.py
+│   ├── [ 12K]  hooks
+│   │   ├── [3.6K]  check_exit_criteria.sh
+│   │   ├── [1.3K]  post_agent_complete.sh
+│   │   ├── [2.9K]  pre_agent_spawn.sh
+│   │   ├── [3.3K]  session_complete.sh
+│   │   └── [1.2K]  subagent_handoff.sh
+│   ├── [6.3K]  html_analyzer.py
+│   ├── [ 14K]  load_reasoningbank.py
+│   ├── [3.8K]  monitor_continuous_loop.sh
+│   ├── [ 22K]  network_grapher.py
+│   ├── [ 16K]  qdrant_manager.py
+│   ├── [5.4K]  qdrant_test_and_save.py
+│   ├── [5.2K]  README.md
+│   ├── [9.4K]  run_continuous_loop.sh
+│   ├── [2.6K]  search_corpus.py
+│   ├── [ 19K]  semantic_clusterer.py
+│   ├── [4.4K]  soundness_evaluator.sh
+│   ├── [ 28K]  subpoena_coordinator_main.py
+│   ├── [4.5K]  tier_assignment_engine.sh
+│   ├── [9.8K]  word_cloud_generator.py
+│   └── [5.6K]  youtube_archival.sh
+├── [ 76K]  state
+│   ├── [ 240]  autonomous_phases.json
+│   ├── [ 477]  binder_chunker.state.json
+│   ├── [2.7K]  blockchain_forensics_loop2_state.json
+│   ├── [5.5K]  blockchain_forensics.state.json
+│   ├── [ 757]  cert_analytics_state.json
+│   ├── [ 511]  citation_linker.state.json
+│   ├── [ 432]  corpus_validator.state.json
+│   ├── [3.2K]  dashboard_coordinator.state.json
+│   ├── [3.3K]  entity_linker.state.json
+│   ├── [2.3K]  evidence_synthesizer.state.json
+│   ├── [5.1K]  final_packager.state.json
+│   ├── [1014]  fraud_scorer.state.json
+│   ├── [ 792]  gap_filler.state.json
+│   ├── [ 364]  html_analyzer.state.json
+│   ├── [1.2K]  network_grapher.state.json
+│   ├── [9.8K]  pattern_detective.state.json
+│   ├── [7.2K]  pillar_scout.state.json
+│   ├── [2.8K]  qa_validator.state.json
+│   ├── [ 526]  qdrant_manager.state.json
+│   ├── [ 481]  reasoningbank_manager.state.json
+│   ├── [8.0K]  reddit_outreach.state.json
+│   ├── [1.2K]  semantic_clusterer.state.json
+│   ├── [ 822]  shadowlens_analyst.state.json
+│   ├── [ 468]  subpoena_coordinator.state.json
+│   ├── [3.6K]  tier_auditor.state.json
+│   ├── [3.2K]  url_analyst.state.json
+│   ├── [1.3K]  word_cloud_generator.state.json
+│   └── [8.4K]  youtube_archival.state.json
+├── [4.6M]  VIZ_6_RICO_DASHBOARD_ENHANCED_v2.html
+└── [4.6M]  VIZ_7_ENTITY_NETWORK_3D_ENHANCED.html
+
+  64M used in 52 directories, 378 files

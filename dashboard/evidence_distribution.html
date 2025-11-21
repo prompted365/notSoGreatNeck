@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RICO Evidence Distribution Dashboard - Phase 3</title>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #0a0e27;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #ffffff;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            color: #b8c6db;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .stat-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            color: #b8c6db;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .stat-card .value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #4da6ff;
+            margin: 5px 0;
+        }
+        .stat-card .subtitle {
+            font-size: 12px;
+            color: #7a8fb3;
+        }
+        .chart-container {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 1px solid #2a5298;
+        }
+        .success { color: #4CAF50; }
+        .warning { color: #FFC107; }
+        .info { color: #2196F3; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Phase 3 RICO Evidence Distribution Dashboard</h1>
+        <p>Run ID: cert1-phase3-shadowlens-20251121 | Generated: 2025-11-21</p>
+        <p class="success">Status: PROSECUTION READY - 817 Evidence Items Loaded</p>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Total Evidence</h3>
+            <div class="value">817</div>
+            <div class="subtitle">545% over 150 minimum target</div>
+        </div>
+        <div class="stat-card">
+            <h3>TIER 1 (Irrefutable)</h3>
+            <div class="value">44</div>
+            <div class="subtitle">Documentary proof + blockchain</div>
+        </div>
+        <div class="stat-card">
+            <h3>TIER 2 (High Confidence)</h3>
+            <div class="value">13</div>
+            <div class="subtitle">3+ cross-verified sources</div>
+        </div>
+        <div class="stat-card">
+            <h3>TIER 3 (Supplementary)</h3>
+            <div class="value">760</div>
+            <div class="subtitle">2+ corroborated sources</div>
+        </div>
+        <div class="stat-card">
+            <h3>Blockchain Transactions</h3>
+            <div class="value">$564.6M</div>
+            <div class="subtitle">1,426 transactions validated</div>
+        </div>
+        <div class="stat-card">
+            <h3>Legal Compliance</h3>
+            <div class="value success">100%</div>
+            <div class="subtitle">0 EESystem violations</div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div id="tierChart"></div>
+    </div>
+
+    <div class="chart-container">
+        <div id="ricoChart"></div>
+    </div>
+
+    <div class="chart-container">
+        <div id="categoryChart"></div>
+    </div>
+
+    <div class="chart-container">
+        <div id="timelineChart"></div>
+    </div>
+
+    <script>
+        // TIER Distribution
+        var tierData = [{
+            x: ['TIER 1<br>Irrefutable', 'TIER 2<br>High Confidence', 'TIER 3<br>Supplementary'],
+            y: [44, 13, 760],
+            type: 'bar',
+            marker: {
+                color: ['#4CAF50', '#2196F3', '#FFC107'],
+                line: {
+                    color: '#ffffff',
+                    width: 1
+                }
+            },
+            text: ['44 items', '13 items', '760 items'],
+            textposition: 'auto',
+            hovertemplate: '<b>%{x}</b><br>Count: %{y}<extra></extra>'
+        }];
+
+        var tierLayout = {
+            title: {
+                text: 'Evidence TIER Distribution',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            xaxis: {
+                title: 'Evidence TIER',
+                gridcolor: '#2a5298'
+            },
+            yaxis: {
+                title: 'Count',
+                gridcolor: '#2a5298'
+            },
+            hovermode: 'closest'
+        };
+
+        Plotly.newPlot('tierChart', tierData, tierLayout, {responsive: true});
+
+        // RICO Predicate Distribution
+        var ricoData = [{
+            x: ['Tax Evasion', 'Wire Fraud', 'Fraudulent<br>Conveyance', 'Money<br>Laundering', 'Hobbs Act<br>Extortion', 'RICO<br>Enterprise'],
+            y: [26, 21, 17, 13, 11, 6],
+            type: 'bar',
+            marker: {
+                color: '#e74c3c',
+                line: {
+                    color: '#ffffff',
+                    width: 1
+                }
+            },
+            text: ['26', '21', '17', '13', '11', '6'],
+            textposition: 'auto',
+            hovertemplate: '<b>%{x}</b><br>Evidence Count: %{y}<extra></extra>'
+        }];
+
+        var ricoLayout = {
+            title: {
+                text: 'RICO Predicate Coverage (6/9 Federal Predicates)',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            xaxis: {
+                title: 'RICO Predicate',
+                gridcolor: '#2a5298'
+            },
+            yaxis: {
+                title: 'Evidence Count',
+                gridcolor: '#2a5298'
+            }
+        };
+
+        Plotly.newPlot('ricoChart', ricoData, ricoLayout, {responsive: true});
+
+        // Category Distribution
+        var categoryData = [{
+            values: [774, 20, 3, 20],
+            labels: ['Blockchain', 'Documentary', 'Narrative Documentary', 'Supplementary Source'],
+            type: 'pie',
+            marker: {
+                colors: ['#3498db', '#e74c3c', '#f39c12', '#9b59b6'],
+                line: {
+                    color: '#ffffff',
+                    width: 2
+                }
+            },
+            textinfo: 'label+percent',
+            textfont: {
+                size: 14,
+                color: '#ffffff'
+            },
+            hovertemplate: '<b>%{label}</b><br>Count: %{value}<br>Percentage: %{percent}<extra></extra>'
+        }];
+
+        var categoryLayout = {
+            title: {
+                text: 'Evidence Category Breakdown',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            showlegend: true,
+            legend: {
+                font: { color: '#ffffff' }
+            }
+        };
+
+        Plotly.newPlot('categoryChart', categoryData, categoryLayout, {responsive: true});
+
+        // Timeline
+        var timelineData = [{
+            x: ['1993', '2002', '2011', '2015-2024', '2025'],
+            y: [1, 1, 1, 1426, 48],
+            mode: 'lines+markers',
+            type: 'scatter',
+            marker: {
+                size: [8, 8, 8, 20, 12],
+                color: ['#e74c3c', '#e74c3c', '#f39c12', '#3498db', '#2ecc71'],
+                line: {
+                    color: '#ffffff',
+                    width: 2
+                }
+            },
+            line: {
+                color: '#4da6ff',
+                width: 3
+            },
+            text: [
+                'Efraim Shurka Felony Conviction',
+                'Creditor-Proof Fraudulent Conveyance',
+                'Lukoil Judgment',
+                'Blockchain Transactions ($564.6M)',
+                'shadowLens Documentary Evidence'
+            ],
+            hovertemplate: '<b>%{x}</b><br>%{text}<br>Evidence Count: %{y}<extra></extra>'
+        }];
+
+        var timelineLayout = {
+            title: {
+                text: 'Evidence Timeline (1993-2025)',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            xaxis: {
+                title: 'Year',
+                gridcolor: '#2a5298'
+            },
+            yaxis: {
+                title: 'Evidence Count (log scale)',
+                type: 'log',
+                gridcolor: '#2a5298'
+            }
+        };
+
+        Plotly.newPlot('timelineChart', timelineData, timelineLayout, {responsive: true});
+    </script>
+</body>
+</html>

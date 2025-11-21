@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Principal Network Graph - RICO Conspiracy</title>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #0a0e27;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #ffffff;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            color: #b8c6db;
+        }
+        .legend {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #2a5298;
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #4da6ff;
+        }
+        .legend-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .legend-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid #ffffff;
+        }
+        .chart-container {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+            min-height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Principal Network Graph - RICO Conspiracy</h1>
+        <p>20 Principal Entities | 7 Co-Mention Relationships | 8,226 Total Network Nodes</p>
+    </div>
+
+    <div class="legend">
+        <h3>Network Legend</h3>
+        <div class="legend-item">
+            <div class="legend-dot" style="background-color: #e74c3c; width: 40px; height: 40px;"></div>
+            <span><strong>Jason Shurka</strong> - Primary Defendant (6,462 mentions)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background-color: #3498db; width: 35px; height: 35px;"></div>
+            <span><strong>UNIFYD</strong> - Criminal Organization (944 mentions)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background-color: #f39c12;"></div>
+            <span><strong>Co-Conspirators</strong> - Family members and associates</span>
+        </div>
+        <div class="legend-item">
+            <span><strong>Edge Thickness</strong> - Number of co-mentions (coordination evidence)</span>
+        </div>
+        <div class="legend-item">
+            <span><strong>Node Size</strong> - Evidence count (larger = more evidence)</span>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div id="networkGraph"></div>
+    </div>
+
+    <script>
+        // Network data based on entity_network_stats.json
+        var nodes = [
+            {name: 'Jason Shurka', mentions: 6462, evidence: 29, role: 'Primary Defendant', color: '#e74c3c'},
+            {name: 'UNIFYD', mentions: 944, evidence: 22, role: 'Criminal Organization', color: '#3498db'},
+            {name: 'Manny Shurka', mentions: 55, evidence: 24, role: 'Co-Conspirator', color: '#f39c12'},
+            {name: 'Esther Zernitsky', mentions: 80, evidence: 13, role: 'Financial Architect', color: '#f39c12'},
+            {name: 'Efraim Shurka', mentions: 29, evidence: 12, role: 'Patriarch/Predicate', color: '#f39c12'},
+            {name: 'Talia Havakok', mentions: 40, evidence: 12, role: 'UNIFYD CFO', color: '#f39c12'},
+            {name: 'Malka Shurka', mentions: 10, evidence: 6, role: 'Family Member', color: '#9b59b6'},
+            {name: 'Tamar Reich', mentions: 5, evidence: 4, role: 'Board Member', color: '#9b59b6'},
+            {name: 'SIG C-Suite', mentions: 3, evidence: 3, role: 'Corporate Entity', color: '#9b59b6'},
+            {name: 'Matthew Shurka', mentions: 2, evidence: 2, role: 'Witness', color: '#2ecc71'}
+        ];
+
+        // Edges (co-mentions from entity_network_stats.json)
+        var edges = [
+            {source: 'Jason Shurka', target: 'UNIFYD', weight: 2},
+            {source: 'Jason Shurka', target: 'Manny Shurka', weight: 1},
+            {source: 'Jason Shurka', target: 'Esther Zernitsky', weight: 1},
+            {source: 'Jason Shurka', target: 'Efraim Shurka', weight: 1},
+            {source: 'Manny Shurka', target: 'Esther Zernitsky', weight: 1},
+            {source: 'Manny Shurka', target: 'Efraim Shurka', weight: 1},
+            {source: 'Efraim Shurka', target: 'Esther Zernitsky', weight: 1}
+        ];
+
+        // Create circular layout
+        var n = nodes.length;
+        var nodeX = [];
+        var nodeY = [];
+        var nodeSize = [];
+        var nodeColor = [];
+        var nodeText = [];
+
+        // Place Jason Shurka in center
+        nodeX.push(0);
+        nodeY.push(0);
+        nodeSize.push(Math.sqrt(nodes[0].evidence) * 10);
+        nodeColor.push(nodes[0].color);
+        nodeText.push(`<b>${nodes[0].name}</b><br>Evidence: ${nodes[0].evidence}<br>Mentions: ${nodes[0].mentions}<br>Role: ${nodes[0].role}`);
+
+        // Arrange others in circle
+        var radius = 2;
+        for (var i = 1; i < n; i++) {
+            var angle = (i - 1) * 2 * Math.PI / (n - 1);
+            nodeX.push(radius * Math.cos(angle));
+            nodeY.push(radius * Math.sin(angle));
+            nodeSize.push(Math.sqrt(nodes[i].evidence) * 8);
+            nodeColor.push(nodes[i].color);
+            nodeText.push(`<b>${nodes[i].name}</b><br>Evidence: ${nodes[i].evidence}<br>Mentions: ${nodes[i].mentions}<br>Role: ${nodes[i].role}`);
+        }
+
+        // Create node position map
+        var nodeMap = {};
+        for (var i = 0; i < n; i++) {
+            nodeMap[nodes[i].name] = i;
+        }
+
+        // Draw edges
+        var edgeTraces = [];
+        edges.forEach(function(edge) {
+            var x0 = nodeX[nodeMap[edge.source]];
+            var y0 = nodeY[nodeMap[edge.source]];
+            var x1 = nodeX[nodeMap[edge.target]];
+            var y1 = nodeY[nodeMap[edge.target]];
+
+            edgeTraces.push({
+                x: [x0, x1, null],
+                y: [y0, y1, null],
+                mode: 'lines',
+                line: {
+                    width: edge.weight * 3,
+                    color: '#4da6ff'
+                },
+                hoverinfo: 'skip',
+                showlegend: false
+            });
+        });
+
+        // Draw nodes
+        var nodeTrace = {
+            x: nodeX,
+            y: nodeY,
+            mode: 'markers+text',
+            type: 'scatter',
+            marker: {
+                size: nodeSize,
+                color: nodeColor,
+                line: {
+                    color: '#ffffff',
+                    width: 2
+                }
+            },
+            text: nodes.map(n => n.name),
+            textposition: 'top center',
+            textfont: {
+                size: 12,
+                color: '#ffffff',
+                family: 'Arial Black'
+            },
+            hovertemplate: '%{hovertext}<extra></extra>',
+            hovertext: nodeText,
+            showlegend: false
+        };
+
+        var data = edgeTraces.concat([nodeTrace]);
+
+        var layout = {
+            title: {
+                text: 'RICO Conspiracy Network - Principal Entities',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            xaxis: {
+                showgrid: false,
+                zeroline: false,
+                showticklabels: false
+            },
+            yaxis: {
+                showgrid: false,
+                zeroline: false,
+                showticklabels: false
+            },
+            hovermode: 'closest',
+            height: 800
+        };
+
+        Plotly.newPlot('networkGraph', data, layout, {responsive: true});
+    </script>
+</body>
+</html>

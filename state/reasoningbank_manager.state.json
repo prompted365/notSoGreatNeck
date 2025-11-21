@@ -1,0 +1,18 @@
+{
+  "run_id": "cert1-phase3-shadowlens-20251121",
+  "status": "completed",
+  "phase": "HANDOFF",
+  "evidence_loaded": 817,
+  "evidence_rejected": 4,
+  "outputs": [
+    "memory/evidence_manifest.json",
+    "coordination/evidence_loading_report.json"
+  ],
+  "success_criteria_met": {
+    "all_821_loaded": false,
+    "all_have_corpus_sources": false,
+    "cross_reference_index_built": true,
+    "eesystem_safeguard_check": true
+  },
+  "completed_at": "2025-11-21T04:36:10.684702Z"
+}

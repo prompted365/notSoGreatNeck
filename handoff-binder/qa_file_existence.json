@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "task": "TASK 1: File Existence Validation",
+    "agent": "QA_Validator",
+    "run_id": "cert1-autonomous-multiphase-20251121",
+    "generated_at": "2025-11-21T07:27:35.025762Z",
+    "validation_type": "comprehensive_file_existence"
+  },
+  "summary": {
+    "total_expected_files": 70,
+    "total_found_files": 70,
+    "total_missing_files": 0,
+    "pass_rate": 100.0
+  },
+  "details_by_directory": {
+    "handoff_binder": {
+      "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder",
+      "expected_count": 8,
+      "found_count": 8,
+      "missing_count": 0,
+      "files": {
+        "evidence_inventory.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/evidence_inventory.json",
+          "size_bytes": 428195,
+          "last_modified": "2025-11-21T02:07:41.534784Z"
+        },
+        "subpoena_package_final.md": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/subpoena_package_final.md",
+          "size_bytes": 17097,
+          "last_modified": "2025-11-21T02:11:03.162033Z"
+        },
+        "subpoena_targets.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/subpoena_targets.json",
+          "size_bytes": 19356,
+          "last_modified": "2025-11-21T02:11:03.162913Z"
+        },
+        "prosecution_readiness_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/prosecution_readiness_report.json",
+          "size_bytes": 7009,
+          "last_modified": "2025-11-21T02:12:14.188534Z"
+        },
+        "PHASE4_EXECUTIVE_SUMMARY.md": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/PHASE4_EXECUTIVE_SUMMARY.md",
+          "size_bytes": 16603,
+          "last_modified": "2025-11-21T02:14:06.768237Z"
+        },
+        "loop_summary.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/loop_summary.json",
+          "size_bytes": 10588,
+          "last_modified": "2025-11-21T02:16:03.226787Z"
+        },
+        "quality_assurance_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/quality_assurance_report.json",
+          "size_bytes": 3973,
+          "last_modified": "2025-11-21T02:14:59.174019Z"
+        },
+        "COMPLETION_SUMMARY.txt": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/handoff-binder/COMPLETION_SUMMARY.txt",
+          "size_bytes": 11366,
+          "last_modified": "2025-11-21T02:17:53.426219Z"
+        }
+      }
+    },
+    "coordination": {
+      "path": "/Users/breydentaylor/certainly/visualizations/coordination",
+      "expected_count": 48,
+      "found_count": 48,
+      "missing_count": 0,
+      "files": {
+        "agent_messages.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/agent_messages.json",
+          "size_bytes": 4099,
+          "last_modified": "2025-11-20T23:28:37.168158Z"
+        },
+        "approved_evidence_list.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/approved_evidence_list.json",
+          "size_bytes": 1267952,
+          "last_modified": "2025-11-20T23:26:30.888364Z"
+        },
+        "attribution_scores.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/attribution_scores.json",
+          "size_bytes": 99286,
+          "last_modified": "2025-11-21T02:08:44.231844Z"
+        },
+        "binder_chunker_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/binder_chunker_report.json",
+          "size_bytes": 2951,
+          "last_modified": "2025-11-20T23:16:09.447121Z"
+        },
+        "binder_chunks.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/binder_chunks.json",
+          "size_bytes": 640833,
+          "last_modified": "2025-11-20T23:15:13.038803Z"
+        },
+        "binder_cluster_labels.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/binder_cluster_labels.json",
+          "size_bytes": 11194,
+          "last_modified": "2025-11-20T23:15:13.039763Z"
+        },
+        "blind_spots.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/blind_spots.json",
+          "size_bytes": 14216,
+          "last_modified": "2025-11-21T02:09:43.868579Z"
+        },
+        "blockchain_validated_evidence.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/blockchain_validated_evidence.json",
+          "size_bytes": 1517260,
+          "last_modified": "2025-11-20T23:15:19.726309Z"
+        },
+        "borderline_items.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/borderline_items.json",
+          "size_bytes": 162119,
+          "last_modified": "2025-11-21T02:06:19.311033Z"
+        },
+        "corporate_structure.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/corporate_structure.json",
+          "size_bytes": 22362,
+          "last_modified": "2025-11-21T02:09:58.319005Z"
+        },
+        "corpus_validator_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/corpus_validator_report.json",
+          "size_bytes": 1298,
+          "last_modified": "2025-11-21T01:53:00.554165Z"
+        },
+        "cross_reference_matrix.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/cross_reference_matrix.json",
+          "size_bytes": 135833,
+          "last_modified": "2025-11-21T02:07:48.980768Z"
+        },
+        "dashboard_coordinator_handoff.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/dashboard_coordinator_handoff.json",
+          "size_bytes": 11521,
+          "last_modified": "2025-11-20T23:51:06.499622Z"
+        },
+        "entity_relationship_map.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/entity_relationship_map.json",
+          "size_bytes": 14571,
+          "last_modified": "2025-11-21T02:08:05.405732Z"
+        },
+        "evidence_audit_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/evidence_audit_report.json",
+          "size_bytes": 112498,
+          "last_modified": "2025-11-20T23:26:30.890454Z"
+        },
+        "evidence_loading_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/evidence_loading_report.json",
+          "size_bytes": 1367,
+          "last_modified": "2025-11-20T23:36:10.682968Z"
+        },
+        "evidence_summary_stats.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/evidence_summary_stats.json",
+          "size_bytes": 285,
+          "last_modified": "2025-11-21T02:07:08.066452Z"
+        },
+        "evidence_to_corpus_mapping.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/evidence_to_corpus_mapping.json",
+          "size_bytes": 672270,
+          "last_modified": "2025-11-20T21:34:01.711223Z"
+        },
+        "exchange_fingerprints.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/exchange_fingerprints.json",
+          "size_bytes": 36119,
+          "last_modified": "2025-11-21T02:08:06.406397Z"
+        },
+        "flagged_for_manual_review.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/flagged_for_manual_review.json",
+          "size_bytes": 1461811,
+          "last_modified": "2025-11-20T23:26:30.914304Z"
+        },
+        "fraud_scorer_handoff.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/fraud_scorer_handoff.json",
+          "size_bytes": 3143,
+          "last_modified": "2025-11-20T23:15:28.617264Z"
+        },
+        "gap_analysis_loop3.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/gap_analysis_loop3.json",
+          "size_bytes": 6807,
+          "last_modified": "2025-11-21T02:08:28.360165Z"
+        },
+        "gap_fill_input.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/gap_fill_input.json",
+          "size_bytes": 67518,
+          "last_modified": "2025-11-21T01:51:58.016567Z"
+        },
+        "gap_fill_input_batch2.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/gap_fill_input_batch2.json",
+          "size_bytes": 66266,
+          "last_modified": "2025-11-21T01:55:09.437600Z"
+        },
+        "gap_fill_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/gap_fill_report.json",
+          "size_bytes": 3317,
+          "last_modified": "2025-11-21T01:56:38.677740Z"
+        },
+        "gap_fill_results.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/gap_fill_results.json",
+          "size_bytes": 231299,
+          "last_modified": "2025-11-21T01:56:38.677503Z"
+        },
+        "gap_filler_executive_summary.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/gap_filler_executive_summary.json",
+          "size_bytes": 3008,
+          "last_modified": "2025-11-21T01:57:32.783087Z"
+        },
+        "global_scope_state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/global_scope_state.json",
+          "size_bytes": 11076,
+          "last_modified": "2025-11-21T02:16:39.542323Z"
+        },
+        "loop5_state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/loop5_state.json",
+          "size_bytes": 1154,
+          "last_modified": "2025-11-21T02:16:39.543216Z"
+        },
+        "master_evidence_map.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/master_evidence_map.json",
+          "size_bytes": 78084,
+          "last_modified": "2025-11-21T02:07:48.989587Z"
+        },
+        "missing_evidence_ids.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/missing_evidence_ids.json",
+          "size_bytes": 815,
+          "last_modified": "2025-11-21T01:54:48.003841Z"
+        },
+        "payment_flows.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/payment_flows.json",
+          "size_bytes": 14279,
+          "last_modified": "2025-11-21T02:11:30.355355Z"
+        },
+        "rico_enterprise_diagram.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/rico_enterprise_diagram.json",
+          "size_bytes": 19205,
+          "last_modified": "2025-11-21T02:15:34.217239Z"
+        },
+        "rico_timeline_1993_2025.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/rico_timeline_1993_2025.json",
+          "size_bytes": 16522,
+          "last_modified": "2025-11-21T02:07:48.984025Z"
+        },
+        "shadowlens_evidence.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/shadowlens_evidence.json",
+          "size_bytes": 504053,
+          "last_modified": "2025-11-20T23:08:17.708871Z"
+        },
+        "spot_check_samples.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/spot_check_samples.json",
+          "size_bytes": 167646,
+          "last_modified": "2025-11-21T02:06:35.800747Z"
+        },
+        "subpoena_coordinator_report.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/subpoena_coordinator_report.json",
+          "size_bytes": 1336,
+          "last_modified": "2025-11-21T01:57:08.644190Z"
+        },
+        "subpoena_targets.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/subpoena_targets.json",
+          "size_bytes": 5696,
+          "last_modified": "2025-11-21T01:57:08.530942Z"
+        },
+        "subpoena_working_data.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/subpoena_working_data.json",
+          "size_bytes": 135712,
+          "last_modified": "2025-11-21T01:52:37.334219Z"
+        },
+        "temporal_validation.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/temporal_validation.json",
+          "size_bytes": 87566,
+          "last_modified": "2025-11-21T02:08:35.374862Z"
+        },
+        "tier_audit_results.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/tier_audit_results.json",
+          "size_bytes": 247740,
+          "last_modified": "2025-11-21T02:07:17.845811Z"
+        },
+        "tier2_items_analysis.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/tier2_items_analysis.json",
+          "size_bytes": 5140,
+          "last_modified": "2025-11-21T01:51:26.217840Z"
+        },
+        "transaction_network.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/transaction_network.json",
+          "size_bytes": 262948,
+          "last_modified": "2025-11-21T02:09:25.105664Z"
+        },
+        "url_fraud_legal_review.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/url_fraud_legal_review.json",
+          "size_bytes": 26137,
+          "last_modified": "2025-11-21T02:14:09.741910Z"
+        },
+        "validated_evidence.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/validated_evidence.json",
+          "size_bytes": 218768,
+          "last_modified": "2025-11-20T21:34:31.295046Z"
+        },
+        "validation_terms.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/validation_terms.json",
+          "size_bytes": 1379,
+          "last_modified": "2025-11-20T21:16:09.933697Z"
+        },
+        "wallet_clusters.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/wallet_clusters.json",
+          "size_bytes": 15482,
+          "last_modified": "2025-11-21T02:07:31.501828Z"
+        },
+        "wallet_data_extracted.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/coordination/wallet_data_extracted.json",
+          "size_bytes": 31464,
+          "last_modified": "2025-11-21T02:06:28.994785Z"
+        }
+      }
+    },
+    "state": {
+      "path": "/Users/breydentaylor/certainly/visualizations/state",
+      "expected_count": 14,
+      "found_count": 14,
+      "missing_count": 0,
+      "files": {
+        "autonomous_phases.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/autonomous_phases.json",
+          "size_bytes": 193,
+          "last_modified": "2025-11-21T02:25:27.597761Z"
+        },
+        "binder_chunker.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/binder_chunker.state.json",
+          "size_bytes": 477,
+          "last_modified": "2025-11-20T23:15:13.039947Z"
+        },
+        "blockchain_forensics.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/blockchain_forensics.state.json",
+          "size_bytes": 439,
+          "last_modified": "2025-11-20T23:15:19.726614Z"
+        },
+        "corpus_validator.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/corpus_validator.state.json",
+          "size_bytes": 529,
+          "last_modified": "2025-11-21T01:53:00.554372Z"
+        },
+        "dashboard_coordinator.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/dashboard_coordinator.state.json",
+          "size_bytes": 3227,
+          "last_modified": "2025-11-20T23:50:03.264907Z"
+        },
+        "entity_linker.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/entity_linker.state.json",
+          "size_bytes": 1175,
+          "last_modified": "2025-11-21T02:15:56.129163Z"
+        },
+        "evidence_synthesizer.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/evidence_synthesizer.state.json",
+          "size_bytes": 2310,
+          "last_modified": "2025-11-21T02:09:54.529286Z"
+        },
+        "fraud_scorer.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/fraud_scorer.state.json",
+          "size_bytes": 1014,
+          "last_modified": "2025-11-20T23:14:36.009959Z"
+        },
+        "gap_filler.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/gap_filler.state.json",
+          "size_bytes": 423,
+          "last_modified": "2025-11-21T01:56:38.677852Z"
+        },
+        "reasoningbank_manager.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/reasoningbank_manager.state.json",
+          "size_bytes": 481,
+          "last_modified": "2025-11-20T23:36:10.685126Z"
+        },
+        "shadowlens_analyst.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/shadowlens_analyst.state.json",
+          "size_bytes": 822,
+          "last_modified": "2025-11-20T23:09:21.010991Z"
+        },
+        "subpoena_coordinator.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/subpoena_coordinator.state.json",
+          "size_bytes": 1404,
+          "last_modified": "2025-11-21T01:57:08.694851Z"
+        },
+        "tier_auditor.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/tier_auditor.state.json",
+          "size_bytes": 3692,
+          "last_modified": "2025-11-21T02:11:15.154757Z"
+        },
+        "url_analyst.state.json": {
+          "exists": true,
+          "path": "/Users/breydentaylor/certainly/visualizations/state/url_analyst.state.json",
+          "size_bytes": 3274,
+          "last_modified": "2025-11-20T23:17:27.309640Z"
+        }
+      }
+    }
+  },
+  "missing_deliverables": [],
+  "status": "PASS"
+}

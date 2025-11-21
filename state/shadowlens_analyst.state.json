@@ -1,0 +1,28 @@
+{
+  "run_id": "cert1-phase3-shadowlens-20251121",
+  "status": "completed",
+  "phase": "HANDOFF",
+  "outputs": [
+    "coordination/shadowlens_evidence.json",
+    "coordination/entity_co_mentions.json",
+    "coordination/agent_messages.json"
+  ],
+  "last_updated": "2025-11-20T23:09:21.010897",
+  "evidence_count": 463,
+  "tier_1_count": 48,
+  "tier_2_count": 415,
+  "notes_processed": 29,
+  "sources_processed": 50,
+  "success_criteria_met": {
+    "total_evidence_80_plus": true,
+    "esther_zernitsky_found": true,
+    "talia_havakok_found": true,
+    "efraim_shurka_found": true,
+    "manny_shurka_found": true,
+    "tax_evasion_predicate": true,
+    "hobbs_act_extortion_predicate": true,
+    "all_tier1_have_temporal_anchor": true,
+    "all_tier1_have_subpoena_target": true,
+    "all_tier1_have_principals": true
+  }
+}

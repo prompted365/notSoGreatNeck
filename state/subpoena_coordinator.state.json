@@ -1,0 +1,17 @@
+{
+  "run_id": "cert1-phase4-autonomous-20251121",
+  "agent": "subpoena_coordinator",
+  "status": "completed",
+  "started_at": "2025-11-21T02:31:16.608608",
+  "completed_at": "2025-11-21T02:31:16.608610",
+  "outputs": [
+    "coordination/subpoena_package.md",
+    "coordination/subpoena_targets.json",
+    "coordination/subpoena_coordinator_report.json"
+  ],
+  "metrics": {
+    "targets_identified": 6,
+    "expected_tier1_upgrades": 821,
+    "total_usd_value": 0
+  }
+}

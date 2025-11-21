@@ -1,0 +1,16 @@
+{
+  "run_id": "cert1-autonomous-multiphase-20251121",
+  "agent": "corpus_validator",
+  "status": "completed",
+  "started_at": "2025-11-21T07:29:22.149855Z",
+  "completed_at": "2025-11-21T07:29:22.157252Z",
+  "outputs": [
+    "coordination/phase3_revalidated_evidence.json",
+    "coordination/corpus_validator_report.json"
+  ],
+  "metrics": {
+    "items_processed": 821,
+    "type_corrections": 821,
+    "tier_corrections": 224
+  }
+}

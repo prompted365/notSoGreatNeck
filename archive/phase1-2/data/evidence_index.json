@@ -1,0 +1,2244 @@
+{
+  "blockchain_tx_1": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0xb576c9403f39829565bd6051695e2ac7ecf850e2",
+      "amount_usd": 0,
+      "chain": "fantom",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 1
+    }
+  },
+  "blockchain_tx_2": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x765277eebeca2e31912c9946eae1021199b39c61",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 2
+    }
+  },
+  "blockchain_tx_3": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc899c4d73ed8df2ead1543ab915888b0bf7d57a2",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "optimism",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 3
+    }
+  },
+  "blockchain_tx_4": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x0000000000000000000000000000000000000000",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "optimism",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 4
+    }
+  },
+  "blockchain_tx_5": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xd048b4c23af828e5be412505a51a8dd7b37782dd",
+      "to_address": "0x93655b91cd9aed338a563f0e69b87833e98a559e",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 5
+    }
+  },
+  "blockchain_tx_6": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xe3e1147acd39687a25ca7716227c604500f5c31a",
+      "to_address": "0xfb2b7942fe140beb0e891d5de841f487fbdf4453",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 6
+    }
+  },
+  "blockchain_tx_7": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xd048b4c23af828e5be412505a51a8dd7b37782dd",
+      "to_address": "0xfb2b7942fe140beb0e891d5de841f487fbdf4453",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 7
+    }
+  },
+  "blockchain_tx_8": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x82d0952f3524df3e0f003d6bb231015d312f9164",
+      "to_address": "0xfb2b7942fe140beb0e891d5de841f487fbdf4453",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 8
+    }
+  },
+  "blockchain_tx_9": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xe3e1147acd39687a25ca7716227c604500f5c31a",
+      "to_address": "0x93655b91cd9aed338a563f0e69b87833e98a559e",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 9
+    }
+  },
+  "blockchain_tx_10": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x82d0952f3524df3e0f003d6bb231015d312f9164",
+      "to_address": "0x93655b91cd9aed338a563f0e69b87833e98a559e",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 10
+    }
+  },
+  "blockchain_tx_11": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x30054bb89edd62f9a57e6d7f02bdff25db30751e",
+      "to_address": "0x93655b91cd9aed338a563f0e69b87833e98a559e",
+      "amount_usd": 0,
+      "chain": "bsc",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 11
+    }
+  },
+  "blockchain_tx_12": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0x0000000000000000000000000000000000000000",
+      "amount_usd": 0,
+      "chain": "optimism",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 12
+    }
+  },
+  "blockchain_tx_13": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0x2a6c340bcbb0a79d3deecd3bc5cbc2605ea9259f",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 13
+    }
+  },
+  "blockchain_tx_14": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "polygon",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 14
+    }
+  },
+  "blockchain_tx_15": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "polygon",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 15
+    }
+  },
+  "blockchain_tx_16": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "polygon",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 16
+    }
+  },
+  "blockchain_tx_17": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0xdc402b5bb2725f8761c600aad79f06085fa5fbc4",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 17
+    }
+  },
+  "blockchain_tx_18": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 18
+    }
+  },
+  "blockchain_tx_19": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x0000000000000000000000000000000000000000",
+      "to_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "amount_usd": 0,
+      "chain": "optimism",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 19
+    }
+  },
+  "blockchain_tx_20": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 20
+    }
+  },
+  "blockchain_tx_21": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 21
+    }
+  },
+  "blockchain_tx_22": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 22
+    }
+  },
+  "blockchain_tx_23": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 23
+    }
+  },
+  "blockchain_tx_24": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 24
+    }
+  },
+  "blockchain_tx_25": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 25
+    }
+  },
+  "blockchain_tx_26": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 26
+    }
+  },
+  "blockchain_tx_27": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 27
+    }
+  },
+  "blockchain_tx_28": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 28
+    }
+  },
+  "blockchain_tx_29": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 29
+    }
+  },
+  "blockchain_tx_30": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 30
+    }
+  },
+  "blockchain_tx_31": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 31
+    }
+  },
+  "blockchain_tx_32": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 32
+    }
+  },
+  "blockchain_tx_33": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 33
+    }
+  },
+  "blockchain_tx_34": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 34
+    }
+  },
+  "blockchain_tx_35": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 35
+    }
+  },
+  "blockchain_tx_36": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 36
+    }
+  },
+  "blockchain_tx_37": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 37
+    }
+  },
+  "blockchain_tx_38": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 38
+    }
+  },
+  "blockchain_tx_39": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 39
+    }
+  },
+  "blockchain_tx_40": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 40
+    }
+  },
+  "blockchain_tx_41": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 41
+    }
+  },
+  "blockchain_tx_42": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 42
+    }
+  },
+  "blockchain_tx_43": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 43
+    }
+  },
+  "blockchain_tx_44": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 44
+    }
+  },
+  "blockchain_tx_45": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 45
+    }
+  },
+  "blockchain_tx_46": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 46
+    }
+  },
+  "blockchain_tx_47": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 47
+    }
+  },
+  "blockchain_tx_48": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 48
+    }
+  },
+  "blockchain_tx_49": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 49
+    }
+  },
+  "blockchain_tx_50": {
+    "tier": 1,
+    "category": "blockchain",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 50
+    }
+  },
+  "blockchain_tx_51": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 51
+    }
+  },
+  "blockchain_tx_52": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 52
+    }
+  },
+  "blockchain_tx_53": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 53
+    }
+  },
+  "blockchain_tx_54": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 54
+    }
+  },
+  "blockchain_tx_55": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 55
+    }
+  },
+  "blockchain_tx_56": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 56
+    }
+  },
+  "blockchain_tx_57": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 57
+    }
+  },
+  "blockchain_tx_58": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 58
+    }
+  },
+  "blockchain_tx_59": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 59
+    }
+  },
+  "blockchain_tx_60": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 60
+    }
+  },
+  "blockchain_tx_61": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 61
+    }
+  },
+  "blockchain_tx_62": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 62
+    }
+  },
+  "blockchain_tx_63": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 63
+    }
+  },
+  "blockchain_tx_64": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 64
+    }
+  },
+  "blockchain_tx_65": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 65
+    }
+  },
+  "blockchain_tx_66": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xddd154ad893b13b9a0503eced4726cf935fe0e21",
+      "to_address": "0x974caa59e49682cda0ad2bbe82983419a2ecc400",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 66
+    }
+  },
+  "blockchain_tx_67": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 67
+    }
+  },
+  "blockchain_tx_68": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "to_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "amount_usd": 0,
+      "chain": "base",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 68
+    }
+  },
+  "blockchain_tx_69": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 69
+    }
+  },
+  "blockchain_tx_70": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 70
+    }
+  },
+  "blockchain_tx_71": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 71
+    }
+  },
+  "blockchain_tx_72": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 72
+    }
+  },
+  "blockchain_tx_73": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 73
+    }
+  },
+  "blockchain_tx_74": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 74
+    }
+  },
+  "blockchain_tx_75": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 75
+    }
+  },
+  "blockchain_tx_76": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 76
+    }
+  },
+  "blockchain_tx_77": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 77
+    }
+  },
+  "blockchain_tx_78": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 78
+    }
+  },
+  "blockchain_tx_79": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 79
+    }
+  },
+  "blockchain_tx_80": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 80
+    }
+  },
+  "blockchain_tx_81": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 81
+    }
+  },
+  "blockchain_tx_82": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 82
+    }
+  },
+  "blockchain_tx_83": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 83
+    }
+  },
+  "blockchain_tx_84": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 84
+    }
+  },
+  "blockchain_tx_85": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 85
+    }
+  },
+  "blockchain_tx_86": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0x01a494079dcb715f622340301463ce50cd69a4d0",
+      "to_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 86
+    }
+  },
+  "blockchain_tx_87": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 87
+    }
+  },
+  "blockchain_tx_88": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 88
+    }
+  },
+  "blockchain_tx_89": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 89
+    }
+  },
+  "blockchain_tx_90": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 90
+    }
+  },
+  "blockchain_tx_91": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 91
+    }
+  },
+  "blockchain_tx_92": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 92
+    }
+  },
+  "blockchain_tx_93": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 93
+    }
+  },
+  "blockchain_tx_94": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 94
+    }
+  },
+  "blockchain_tx_95": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 95
+    }
+  },
+  "blockchain_tx_96": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 96
+    }
+  },
+  "blockchain_tx_97": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 97
+    }
+  },
+  "blockchain_tx_98": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 98
+    }
+  },
+  "blockchain_tx_99": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 99
+    }
+  },
+  "blockchain_tx_100": {
+    "tier": 2,
+    "category": "blockchain",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "blockchain_transaction",
+      "from_address": "0xc565b3db8527fe7f7f89b630886ec348ae1eb994",
+      "to_address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "amount_usd": 0,
+      "chain": "eth",
+      "fraud_indicator": "large_transfer",
+      "predicate": "money_laundering",
+      "rank": 100
+    }
+  },
+  "telegram_summary_001": {
+    "tier": 1,
+    "category": "telegram",
+    "namespace": "evidence_tier1",
+    "metadata": {
+      "type": "telegram_summary",
+      "total_snapshots": 9788,
+      "light_system_mentions": 71,
+      "youtube_videos": 1444,
+      "websites_crawled": 1141,
+      "predicate": "wire_fraud",
+      "tier1_posts": 100,
+      "tier2_external": 71
+    }
+  },
+  "telegram_keywords_001": {
+    "tier": 2,
+    "category": "telegram",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "fraud_keywords",
+      "source": "telegram_posts",
+      "predicate": "fraudulent_claims",
+      "keyword_count": 10,
+      "total_mentions": 474
+    }
+  },
+  "exchange_pattern_1": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 1
+    }
+  },
+  "exchange_pattern_2": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 2
+    }
+  },
+  "exchange_pattern_3": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 3
+    }
+  },
+  "exchange_pattern_4": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 4
+    }
+  },
+  "exchange_pattern_5": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 5
+    }
+  },
+  "exchange_pattern_6": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 6
+    }
+  },
+  "exchange_pattern_7": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 7
+    }
+  },
+  "exchange_pattern_8": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 8
+    }
+  },
+  "exchange_pattern_9": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 9
+    }
+  },
+  "exchange_pattern_10": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 10
+    }
+  },
+  "exchange_pattern_11": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 11
+    }
+  },
+  "exchange_pattern_12": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 12
+    }
+  },
+  "exchange_pattern_13": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 13
+    }
+  },
+  "exchange_pattern_14": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 14
+    }
+  },
+  "exchange_pattern_15": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 15
+    }
+  },
+  "exchange_pattern_16": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 16
+    }
+  },
+  "exchange_pattern_17": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 17
+    }
+  },
+  "exchange_pattern_18": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 18
+    }
+  },
+  "exchange_pattern_19": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 19
+    }
+  },
+  "exchange_pattern_20": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 20
+    }
+  },
+  "exchange_pattern_21": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 21
+    }
+  },
+  "exchange_pattern_22": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 22
+    }
+  },
+  "exchange_pattern_23": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 23
+    }
+  },
+  "exchange_pattern_24": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 24
+    }
+  },
+  "exchange_pattern_25": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 25
+    }
+  },
+  "exchange_pattern_26": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 26
+    }
+  },
+  "exchange_pattern_27": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 27
+    }
+  },
+  "exchange_pattern_28": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 28
+    }
+  },
+  "exchange_pattern_29": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 29
+    }
+  },
+  "exchange_pattern_30": {
+    "tier": 2,
+    "category": "patterns",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 30
+    }
+  },
+  "exchange_pattern_31": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 31
+    }
+  },
+  "exchange_pattern_32": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 32
+    }
+  },
+  "exchange_pattern_33": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 33
+    }
+  },
+  "exchange_pattern_34": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 34
+    }
+  },
+  "exchange_pattern_35": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 35
+    }
+  },
+  "exchange_pattern_36": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 36
+    }
+  },
+  "exchange_pattern_37": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 37
+    }
+  },
+  "exchange_pattern_38": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 38
+    }
+  },
+  "exchange_pattern_39": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 39
+    }
+  },
+  "exchange_pattern_40": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 40
+    }
+  },
+  "exchange_pattern_41": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 41
+    }
+  },
+  "exchange_pattern_42": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 42
+    }
+  },
+  "exchange_pattern_43": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 43
+    }
+  },
+  "exchange_pattern_44": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 44
+    }
+  },
+  "exchange_pattern_45": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 45
+    }
+  },
+  "exchange_pattern_46": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 46
+    }
+  },
+  "exchange_pattern_47": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 47
+    }
+  },
+  "exchange_pattern_48": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 48
+    }
+  },
+  "exchange_pattern_49": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 49
+    }
+  },
+  "exchange_pattern_50": {
+    "tier": 3,
+    "category": "patterns",
+    "namespace": "evidence_tier3",
+    "metadata": {
+      "type": "exchange_pattern",
+      "exchange": "unknown",
+      "total_volume": 0,
+      "transaction_count": 0,
+      "predicate": "money_laundering",
+      "rank": 50
+    }
+  },
+  "entity_lightmedicine": {
+    "tier": 2,
+    "category": "entities",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "entity_node",
+      "entity_name": "Light Medicine",
+      "entity_type": "organization",
+      "centrality_score": 1.0,
+      "connection_count": 71,
+      "predicate": "wire_fraud"
+    }
+  },
+  "entity_telegram_channel": {
+    "tier": 2,
+    "category": "entities",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "entity_node",
+      "entity_name": "Telegram Marketing Channel",
+      "entity_type": "communication",
+      "centrality_score": 0.95,
+      "connection_count": 9788,
+      "predicate": "wire_fraud"
+    }
+  },
+  "entity_youtube_videos": {
+    "tier": 2,
+    "category": "entities",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "entity_node",
+      "entity_name": "YouTube Marketing",
+      "entity_type": "media",
+      "centrality_score": 0.85,
+      "connection_count": 1444,
+      "predicate": "fraudulent_claims"
+    }
+  },
+  "entity_website_network": {
+    "tier": 2,
+    "category": "entities",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "entity_node",
+      "entity_name": "Website Network",
+      "entity_type": "web_infrastructure",
+      "centrality_score": 0.8,
+      "connection_count": 1141,
+      "predicate": "wire_fraud"
+    }
+  },
+  "entity_payment_processor": {
+    "tier": 2,
+    "category": "entities",
+    "namespace": "evidence_tier2",
+    "metadata": {
+      "type": "entity_node",
+      "entity_name": "Payment Processing",
+      "entity_type": "financial",
+      "centrality_score": 0.9,
+      "connection_count": 50,
+      "predicate": "money_laundering"
+    }
+  }
+}

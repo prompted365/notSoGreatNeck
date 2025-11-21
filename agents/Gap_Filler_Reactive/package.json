@@ -1,0 +1,19 @@
+{
+  "name": "gap-filler-reactive",
+  "version": "1.0.0",
+  "description": "Continuous gap-filling reactive processor for cert1-gap-filler-reactive-20251121",
+  "main": "reactive_processor.js",
+  "scripts": {
+    "start": "node reactive_processor.js",
+    "simulate": "node trigger_simulator.js",
+    "test": "node trigger_simulator.js & sleep 2 && node reactive_processor.js"
+  },
+  "keywords": [
+    "evidence",
+    "reactive",
+    "monitoring",
+    "gap-filling"
+  ],
+  "author": "",
+  "license": "ISC"
+}

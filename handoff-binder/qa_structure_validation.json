@@ -1,0 +1,1174 @@
+{
+  "metadata": {
+    "task": "TASK 2: JSON Structure Validation",
+    "agent": "QA_Validator",
+    "run_id": "cert1-autonomous-multiphase-20251121",
+    "generated_at": "2025-11-21T07:27:55.714007+00:00",
+    "validation_type": "json_structure_and_schema"
+  },
+  "summary": {
+    "total_json_files_checked": 122,
+    "valid_json_files": 117,
+    "malformed_json_files": 0,
+    "pass_rate": 95.9
+  },
+  "validation_results": {
+    ".mcp.json": {
+      "path": ".mcp.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 503,
+      "errors": []
+    },
+    "coordination/gap_fill_results.json": {
+      "path": "coordination/gap_fill_results.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 231299,
+      "errors": []
+    },
+    "coordination/blockchain_validated_evidence.json": {
+      "path": "coordination/blockchain_validated_evidence.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1517260,
+      "errors": []
+    },
+    "coordination/wallet_data_extracted.json": {
+      "path": "coordination/wallet_data_extracted.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 31464,
+      "errors": []
+    },
+    "coordination/entity_relationship_map.json": {
+      "path": "coordination/entity_relationship_map.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 14571,
+      "errors": []
+    },
+    "coordination/blind_spots.json": {
+      "path": "coordination/blind_spots.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 14216,
+      "errors": []
+    },
+    "coordination/gap_fill_report.json": {
+      "path": "coordination/gap_fill_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3317,
+      "errors": []
+    },
+    "coordination/binder_cluster_labels.json": {
+      "path": "coordination/binder_cluster_labels.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 11194,
+      "errors": []
+    },
+    "coordination/payment_flows.json": {
+      "path": "coordination/payment_flows.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 14279,
+      "errors": []
+    },
+    "coordination/tier2_items_analysis.json": {
+      "path": "coordination/tier2_items_analysis.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 5140,
+      "errors": []
+    },
+    "coordination/shadowlens_evidence.json": {
+      "path": "coordination/shadowlens_evidence.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 504053,
+      "errors": []
+    },
+    "coordination/corpus_validator_report.json": {
+      "path": "coordination/corpus_validator_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1298,
+      "errors": []
+    },
+    "coordination/binder_chunks.json": {
+      "path": "coordination/binder_chunks.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 640833,
+      "errors": []
+    },
+    "coordination/spot_check_samples.json": {
+      "path": "coordination/spot_check_samples.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 167646,
+      "errors": []
+    },
+    "coordination/subpoena_coordinator_report.json": {
+      "path": "coordination/subpoena_coordinator_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1336,
+      "errors": []
+    },
+    "coordination/rico_timeline_1993_2025.json": {
+      "path": "coordination/rico_timeline_1993_2025.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 16522,
+      "errors": []
+    },
+    "coordination/corporate_structure.json": {
+      "path": "coordination/corporate_structure.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 22362,
+      "errors": []
+    },
+    "coordination/evidence_audit_report.json": {
+      "path": "coordination/evidence_audit_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 112498,
+      "errors": []
+    },
+    "coordination/agent_messages.json": {
+      "path": "coordination/agent_messages.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 4099,
+      "errors": []
+    },
+    "coordination/eesystem_safeguard_violations.json": {
+      "path": "coordination/eesystem_safeguard_violations.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 77,
+      "errors": []
+    },
+    "coordination/validation_terms.json": {
+      "path": "coordination/validation_terms.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1379,
+      "errors": []
+    },
+    "coordination/wallet_clusters.json": {
+      "path": "coordination/wallet_clusters.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 15482,
+      "errors": []
+    },
+    "coordination/fraud_scorer_handoff.json": {
+      "path": "coordination/fraud_scorer_handoff.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3143,
+      "errors": []
+    },
+    "coordination/master_evidence_map.json": {
+      "path": "coordination/master_evidence_map.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 78084,
+      "errors": []
+    },
+    "coordination/transaction_network.json": {
+      "path": "coordination/transaction_network.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 262948,
+      "errors": []
+    },
+    "coordination/gap_analysis_loop3.json": {
+      "path": "coordination/gap_analysis_loop3.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6807,
+      "errors": []
+    },
+    "coordination/evidence_loading_report.json": {
+      "path": "coordination/evidence_loading_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1367,
+      "errors": []
+    },
+    "coordination/dashboard_coordinator_handoff.json": {
+      "path": "coordination/dashboard_coordinator_handoff.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 11521,
+      "errors": []
+    },
+    "coordination/temporal_validation.json": {
+      "path": "coordination/temporal_validation.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 87566,
+      "errors": []
+    },
+    "coordination/gap_filler_executive_summary.json": {
+      "path": "coordination/gap_filler_executive_summary.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3008,
+      "errors": []
+    },
+    "coordination/tier_audit_results.json": {
+      "path": "coordination/tier_audit_results.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 247740,
+      "errors": []
+    },
+    "coordination/attribution_scores.json": {
+      "path": "coordination/attribution_scores.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 99286,
+      "errors": []
+    },
+    "coordination/entity_network_stats.json": {
+      "path": "coordination/entity_network_stats.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 7614,
+      "errors": []
+    },
+    "coordination/missing_evidence_ids.json": {
+      "path": "coordination/missing_evidence_ids.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 815,
+      "errors": []
+    },
+    "coordination/binder_chunker_report.json": {
+      "path": "coordination/binder_chunker_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 2951,
+      "errors": []
+    },
+    "coordination/rico_enterprise_diagram.json": {
+      "path": "coordination/rico_enterprise_diagram.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 19205,
+      "errors": []
+    },
+    "coordination/borderline_items.json": {
+      "path": "coordination/borderline_items.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 162119,
+      "errors": []
+    },
+    "coordination/flagged_for_manual_review.json": {
+      "path": "coordination/flagged_for_manual_review.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1461811,
+      "errors": []
+    },
+    "coordination/validated_evidence.json": {
+      "path": "coordination/validated_evidence.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 218768,
+      "errors": []
+    },
+    "coordination/subpoena_targets.json": {
+      "path": "coordination/subpoena_targets.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": false,
+      "data_types_correct": true,
+      "size_bytes": 5696,
+      "errors": [
+        "Missing required field: metadata",
+        "Missing required field: target_1",
+        "Missing required field: target_2",
+        "Missing required field: target_3"
+      ]
+    },
+    "coordination/url_fraud_legal_review.json": {
+      "path": "coordination/url_fraud_legal_review.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 26137,
+      "errors": []
+    },
+    "coordination/exchange_fingerprints.json": {
+      "path": "coordination/exchange_fingerprints.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 36119,
+      "errors": []
+    },
+    "coordination/approved_evidence_list.json": {
+      "path": "coordination/approved_evidence_list.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": false,
+      "data_types_correct": true,
+      "size_bytes": 1267952,
+      "errors": [
+        "Missing required field: evidence"
+      ]
+    },
+    "coordination/loop5_state.json": {
+      "path": "coordination/loop5_state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1154,
+      "errors": []
+    },
+    "coordination/evidence_to_corpus_mapping.json": {
+      "path": "coordination/evidence_to_corpus_mapping.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 672270,
+      "errors": []
+    },
+    "coordination/evidence_summary_stats.json": {
+      "path": "coordination/evidence_summary_stats.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 285,
+      "errors": []
+    },
+    "coordination/gap_fill_input.json": {
+      "path": "coordination/gap_fill_input.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 67518,
+      "errors": []
+    },
+    "coordination/cross_reference_matrix.json": {
+      "path": "coordination/cross_reference_matrix.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 135833,
+      "errors": []
+    },
+    "coordination/gap_fill_input_batch2.json": {
+      "path": "coordination/gap_fill_input_batch2.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 66266,
+      "errors": []
+    },
+    "coordination/global_scope_state.json": {
+      "path": "coordination/global_scope_state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 11076,
+      "errors": []
+    },
+    "coordination/subpoena_working_data.json": {
+      "path": "coordination/subpoena_working_data.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 135712,
+      "errors": []
+    },
+    "coordination/entity_co_mentions.json": {
+      "path": "coordination/entity_co_mentions.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 863,
+      "errors": []
+    },
+    "coordination/phase3_revalidated_evidence.json": {
+      "path": "coordination/phase3_revalidated_evidence.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 2548200,
+      "errors": []
+    },
+    "coordination/quality_spot_check.json": {
+      "path": "coordination/quality_spot_check.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 11052,
+      "errors": []
+    },
+    "coordination/run_manifest.json": {
+      "path": "coordination/run_manifest.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 435,
+      "errors": []
+    },
+    "coordination/source_verification.json": {
+      "path": "coordination/source_verification.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 9601,
+      "errors": []
+    },
+    "coordination/rico_value_assessment.json": {
+      "path": "coordination/rico_value_assessment.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 635240,
+      "errors": []
+    },
+    "coordination/evidence_strength_heatmap.json": {
+      "path": "coordination/evidence_strength_heatmap.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 858,
+      "errors": []
+    },
+    "coordination/blockchain_data_extracted.json": {
+      "path": "coordination/blockchain_data_extracted.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 332986,
+      "errors": []
+    },
+    "memory/claude-flow@alpha-data.json": {
+      "path": "memory/claude-flow@alpha-data.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 65,
+      "errors": []
+    },
+    "memory/validation_checkpoint.json": {
+      "path": "memory/validation_checkpoint.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 210,
+      "errors": []
+    },
+    "memory/evidence_manifest.json": {
+      "path": "memory/evidence_manifest.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1529,
+      "errors": []
+    },
+    "memory/gaps.json": {
+      "path": "memory/gaps.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3060,
+      "errors": []
+    },
+    "archive/phase1-2/data/blockchain_analysis.json": {
+      "path": "archive/phase1-2/data/blockchain_analysis.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 29400,
+      "errors": []
+    },
+    "archive/phase1-2/data/binder_cluster_labels.json": {
+      "path": "archive/phase1-2/data/binder_cluster_labels.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 974,
+      "errors": []
+    },
+    "archive/phase1-2/data/binder_chunks.json": {
+      "path": "archive/phase1-2/data/binder_chunks.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 4538274,
+      "errors": []
+    },
+    "archive/phase1-2/data/evidence_index.json": {
+      "path": "archive/phase1-2/data/evidence_index.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 62897,
+      "errors": []
+    },
+    "archive/phase1-2/data/evidence_audit_report.json": {
+      "path": "archive/phase1-2/data/evidence_audit_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 5748,
+      "errors": []
+    },
+    "archive/phase1-2/data/analysis_findings.json": {
+      "path": "archive/phase1-2/data/analysis_findings.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 656536,
+      "errors": []
+    },
+    "archive/phase1-2/data/evidence_loading_report.json": {
+      "path": "archive/phase1-2/data/evidence_loading_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 2471,
+      "errors": []
+    },
+    "archive/phase1-2/data/telegram_evidence_analysis.json": {
+      "path": "archive/phase1-2/data/telegram_evidence_analysis.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 646,
+      "errors": []
+    },
+    "archive/phase1-2/data/entity_network_stats.json": {
+      "path": "archive/phase1-2/data/entity_network_stats.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3153,
+      "errors": []
+    },
+    "archive/phase1-2/data/approved_evidence_list.json": {
+      "path": "archive/phase1-2/data/approved_evidence_list.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": false,
+      "data_types_correct": true,
+      "size_bytes": 2767,
+      "errors": [
+        "Missing required field: evidence"
+      ]
+    },
+    "handoff-binder/quality_assurance_report.json": {
+      "path": "handoff-binder/quality_assurance_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3973,
+      "errors": []
+    },
+    "handoff-binder/evidence_inventory.json": {
+      "path": "handoff-binder/evidence_inventory.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 428195,
+      "errors": []
+    },
+    "handoff-binder/loop_summary.json": {
+      "path": "handoff-binder/loop_summary.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 10588,
+      "errors": []
+    },
+    "handoff-binder/prosecution_readiness_report.json": {
+      "path": "handoff-binder/prosecution_readiness_report.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": false,
+      "data_types_correct": true,
+      "size_bytes": 7009,
+      "errors": [
+        "Missing required field: exit_criteria"
+      ]
+    },
+    "handoff-binder/subpoena_targets.json": {
+      "path": "handoff-binder/subpoena_targets.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": false,
+      "data_types_correct": true,
+      "size_bytes": 19356,
+      "errors": [
+        "Missing required field: target_1",
+        "Missing required field: target_2",
+        "Missing required field: target_3"
+      ]
+    },
+    "handoff-binder/qa_file_existence.json": {
+      "path": "handoff-binder/qa_file_existence.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 19899,
+      "errors": []
+    },
+    ".claude/settings.json": {
+      "path": ".claude/settings.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 4415,
+      "errors": []
+    },
+    ".claude/settings.local.json": {
+      "path": ".claude/settings.local.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1135,
+      "errors": []
+    },
+    "state/blockchain_forensics_loop2_state.json": {
+      "path": "state/blockchain_forensics_loop2_state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 2723,
+      "errors": []
+    },
+    "state/url_analyst.state.json": {
+      "path": "state/url_analyst.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3274,
+      "errors": []
+    },
+    "state/reasoningbank_manager.state.json": {
+      "path": "state/reasoningbank_manager.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 481,
+      "errors": []
+    },
+    "state/blockchain_forensics.state.json": {
+      "path": "state/blockchain_forensics.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 439,
+      "errors": []
+    },
+    "state/subpoena_coordinator.state.json": {
+      "path": "state/subpoena_coordinator.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1404,
+      "errors": []
+    },
+    "state/corpus_validator.state.json": {
+      "path": "state/corpus_validator.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 529,
+      "errors": []
+    },
+    "state/fraud_scorer.state.json": {
+      "path": "state/fraud_scorer.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1014,
+      "errors": []
+    },
+    "state/gap_filler.state.json": {
+      "path": "state/gap_filler.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 423,
+      "errors": []
+    },
+    "state/evidence_synthesizer.state.json": {
+      "path": "state/evidence_synthesizer.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 2310,
+      "errors": []
+    },
+    "state/autonomous_phases.json": {
+      "path": "state/autonomous_phases.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 193,
+      "errors": []
+    },
+    "state/binder_chunker.state.json": {
+      "path": "state/binder_chunker.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 477,
+      "errors": []
+    },
+    "state/entity_linker.state.json": {
+      "path": "state/entity_linker.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1175,
+      "errors": []
+    },
+    "state/tier_auditor.state.json": {
+      "path": "state/tier_auditor.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3692,
+      "errors": []
+    },
+    "state/dashboard_coordinator.state.json": {
+      "path": "state/dashboard_coordinator.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3227,
+      "errors": []
+    },
+    "state/shadowlens_analyst.state.json": {
+      "path": "state/shadowlens_analyst.state.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 822,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/torch/_dynamo/graph_break_registry.json": {
+      "path": "venv/lib/python3.13/site-packages/torch/_dynamo/graph_break_registry.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 110760,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/en_core_web_sm-3.8.0.dist-info/direct_url.json": {
+      "path": "venv/lib/python3.13/site-packages/en_core_web_sm-3.8.0.dist-info/direct_url.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 320,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/labextension/package.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/labextension/package.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1367,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/ggplot2.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/ggplot2.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6271,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/xgridoff.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/xgridoff.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 147,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/plotly_dark.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/plotly_dark.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6898,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/gridon.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/gridon.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 162,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/simple_white.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/simple_white.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 8114,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/presentation.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/presentation.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 763,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/plotly.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/plotly.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6621,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/ygridoff.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/ygridoff.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 89,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/seaborn.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/seaborn.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 10374,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/package_data/templates/plotly_white.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/package_data/templates/plotly_white.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6667,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/plotly/validators/_validators.json": {
+      "path": "venv/lib/python3.13/site-packages/plotly/validators/_validators.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3777489,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/srsly/tests/ujson/334-reproducer.json": {
+      "path": "venv/lib/python3.13/site-packages/srsly/tests/ujson/334-reproducer.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 29345,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/en_core_web_sm/meta.json": {
+      "path": "venv/lib/python3.13/site-packages/en_core_web_sm/meta.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 10106,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/accuracy.json": {
+      "path": "venv/lib/python3.13/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/accuracy.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6341,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/meta.json": {
+      "path": "venv/lib/python3.13/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/meta.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 10106,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/vocab/strings.json": {
+      "path": "venv/lib/python3.13/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/vocab/strings.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1103983,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/setuptools/config/setuptools.schema.json": {
+      "path": "venv/lib/python3.13/site-packages/setuptools/config/setuptools.schema.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 16071,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/setuptools/config/distutils.schema.json": {
+      "path": "venv/lib/python3.13/site-packages/setuptools/config/distutils.schema.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 972,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/spacy/tests/registry_contents.json": {
+      "path": "venv/lib/python3.13/site-packages/spacy/tests/registry_contents.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 6967,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/spacy/tests/factory_registrations.json": {
+      "path": "venv/lib/python3.13/site-packages/spacy/tests/factory_registrations.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 3490,
+      "errors": []
+    },
+    "venv/lib/python3.13/site-packages/scipy/stats/tests/data/studentized_range_mpmath_ref.json": {
+      "path": "venv/lib/python3.13/site-packages/scipy/stats/tests/data/studentized_range_mpmath_ref.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 29239,
+      "errors": []
+    },
+    "venv/share/jupyter/labextensions/jupyterlab-plotly/package.json": {
+      "path": "venv/share/jupyter/labextensions/jupyterlab-plotly/package.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 1367,
+      "errors": []
+    },
+    "venv/share/jupyter/labextensions/jupyterlab-plotly/install.json": {
+      "path": "venv/share/jupyter/labextensions/jupyterlab-plotly/install.json",
+      "is_valid_json": true,
+      "is_readable": true,
+      "has_required_fields": true,
+      "data_types_correct": true,
+      "size_bytes": 195,
+      "errors": []
+    }
+  },
+  "malformed_files": [],
+  "schema_violations": [
+    {
+      "file": "coordination/subpoena_targets.json",
+      "issue": "Missing required field: metadata"
+    },
+    {
+      "file": "coordination/subpoena_targets.json",
+      "issue": "Missing required field: target_1"
+    },
+    {
+      "file": "coordination/subpoena_targets.json",
+      "issue": "Missing required field: target_2"
+    },
+    {
+      "file": "coordination/subpoena_targets.json",
+      "issue": "Missing required field: target_3"
+    },
+    {
+      "file": "coordination/approved_evidence_list.json",
+      "issue": "Missing required field: evidence"
+    },
+    {
+      "file": "archive/phase1-2/data/approved_evidence_list.json",
+      "issue": "Missing required field: evidence"
+    },
+    {
+      "file": "handoff-binder/prosecution_readiness_report.json",
+      "issue": "Missing required field: exit_criteria"
+    },
+    {
+      "file": "handoff-binder/subpoena_targets.json",
+      "issue": "Missing required field: target_1"
+    },
+    {
+      "file": "handoff-binder/subpoena_targets.json",
+      "issue": "Missing required field: target_2"
+    },
+    {
+      "file": "handoff-binder/subpoena_targets.json",
+      "issue": "Missing required field: target_3"
+    }
+  ],
+  "status": "FAIL"
+}

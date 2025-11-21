@@ -1,0 +1,92 @@
+{
+  "approved_date": "2025-11-20T17:13:31.664865",
+  "approval_criteria": "TIER 1-3 evidence that passed CONTEXT-C45.md validation",
+  "total_approved": 6,
+  "tier_distribution": {
+    "tier1": 3,
+    "tier2": 2,
+    "tier3": 1
+  },
+  "approved_evidence": [
+    {
+      "evidence_id": "TIER1-001",
+      "description": "High-Value Ethereum Transfers - $50M+ through wallet 0x66b870ddf78c975af5cd8edc6de25eca81791de1",
+      "tier": 1,
+      "confidence": 100,
+      "source_count": 1,
+      "supporting_sources": [
+        "Etherscan.io",
+        "fund_transactions_10k^1_export CSV",
+        "Blockchain node verification"
+      ]
+    },
+    {
+      "evidence_id": "TIER1-002",
+      "description": "Stake.com Gambling Platform Deposits - 178.89 ETH across 54 transactions",
+      "tier": 1,
+      "confidence": 95,
+      "source_count": 1,
+      "supporting_sources": [
+        "Blockchain transaction hashes",
+        "danviv_changenow_shurka123 CSV",
+        "Stake.com deposit address verification"
+      ]
+    },
+    {
+      "evidence_id": "TIER1-003",
+      "description": "MEXC Exchange Deposits - Multiple crypto-to-fiat conversion pathways",
+      "tier": 1,
+      "confidence": 90,
+      "source_count": 1,
+      "supporting_sources": [
+        "Blockchain explorer",
+        "MEXC deposit address identification",
+        "Hot wallet forwarding pattern"
+      ]
+    },
+    {
+      "evidence_id": "TIER2-001",
+      "description": "Multi-Chain Obfuscation Pattern - 9 blockchains, 4,793 transactions over 4+ years",
+      "tier": 2,
+      "confidence": 85,
+      "source_count": 9,
+      "supporting_sources": [
+        "BscScan.com",
+        "Etherscan.io",
+        "Basescan.org",
+        "Snowtrace.io",
+        "PolygonScan.com",
+        "Optimistic.etherscan.io",
+        "Arbiscan.io",
+        "FTMScan.com",
+        "shurka123.eth CSV export"
+      ]
+    },
+    {
+      "evidence_id": "TIER2-002",
+      "description": "RICO Pattern of Racketeering - 4+ years sustained activity (2021-2025) with coordinated multi-wallet operation",
+      "tier": 2,
+      "confidence": 85,
+      "source_count": 6,
+      "supporting_sources": [
+        "shurka123.eth CSV (4,793 tx)",
+        "fund_transactions_10k^1 CSV (5,001 tx)",
+        "gang_10k^2 CSV (478 tx)",
+        "danviv_changenow CSV (804 tx)",
+        "danviv_cult CSV (1,025 tx)",
+        "danviv_export CSV (1,287 tx)"
+      ]
+    },
+    {
+      "evidence_id": "TIER3-001",
+      "description": "Round-Tripping Wash Trading - 4 instances of large ETH amounts (200-1000 ETH) OUT then IN within 24 hours",
+      "tier": 3,
+      "confidence": 70,
+      "source_count": 2,
+      "supporting_sources": [
+        "Blockchain transaction hashes",
+        "Temporal pattern analysis"
+      ]
+    }
+  ]
+}

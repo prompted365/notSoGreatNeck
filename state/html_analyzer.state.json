@@ -1,0 +1,15 @@
+{
+  "agent": "HTML_Analyzer",
+  "status": "completed",
+  "timestamp": 1763714077.7845716,
+  "files_processed": 83,
+  "indicators_extracted": 585,
+  "cooccurrence_edges": 367,
+  "success_criteria": {
+    "all_files_processed": false,
+    "unique_terms_per_chunk": true,
+    "indicator_types": 32,
+    "tfidf_calculated": true,
+    "cooccurrence_network": true
+  }
+}

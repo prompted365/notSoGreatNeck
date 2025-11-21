@@ -1,0 +1,30 @@
+{
+  "telegram_evidence": {
+    "total_snapshots": 9788,
+    "analyzed_sample": 100,
+    "light_system_mentions": 71,
+    "youtube_videos": 1444,
+    "websites_crawled": 1141,
+    "fraud_keywords_top10": {
+      "healing": 126,
+      "energy": 122,
+      "ancient": 38,
+      "detox": 38,
+      "cure": 27,
+      "disease": 26,
+      "approved": 26,
+      "scalar": 25,
+      "miracle": 24,
+      "frequency": 22
+    },
+    "tier1_posts": 100,
+    "tier2_external": 71,
+    "tier3_claims": 542,
+    "wire_fraud_elements": {
+      "scheme_to_defraud": true,
+      "interstate_wire": true,
+      "materiality": true,
+      "intent": true
+    }
+  }
+}

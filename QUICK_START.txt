@@ -1,0 +1,210 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   CERT1 CONTINUOUS PILLAR DISCOVERY + VALIDATION LOOP                     ║
+║   Quick Start Guide                                                       ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+🚀 RUN THE COMPLETE SYSTEM
+══════════════════════════════════════════════════════════════════════════════
+
+cd /Users/breydentaylor/certainly/visualizations
+./scripts/run_continuous_loop.sh
+
+This will:
+  ✓ Initialize the system
+  ✓ Run all 5 discovery cycles (Reddit, Courts, Video, Victims, LinkedIn)
+  ✓ Execute all 4 continuous processes (Citation, Soundness, Tier, Builder)
+  ✓ Generate final summary report
+
+Expected runtime: ~3 minutes
+
+
+📊 MONITOR IN REAL-TIME
+══════════════════════════════════════════════════════════════════════════════
+
+In a separate terminal:
+./scripts/monitor_continuous_loop.sh
+
+You'll see:
+  • Discovery cycle progress
+  • Continuous process status
+  • Prosecution readiness metrics
+  • Recent activity log
+  • Refreshes every 5 seconds
+
+
+📁 VIEW OUTPUTS
+══════════════════════════════════════════════════════════════════════════════
+
+All outputs in coordination/ directory:
+
+# View Reddit discoveries
+jq '.' coordination/pillar_reddit_live.json
+
+# View court records
+jq '.' coordination/pillar_courts_live.json
+
+# Check tier assignments
+jq '.' coordination/tier_updates_log.json
+
+# Prosecution readiness
+jq '.readiness_summary' coordination/prosecution_readiness_live.json
+
+# System state
+jq '.' coordination/continuous_loop_state.json
+
+# Detailed log
+tail -f coordination/continuous_loop.log
+
+
+🔍 EXAMINE INDIVIDUAL EVIDENCE ITEMS
+══════════════════════════════════════════════════════════════════════════════
+
+# View discovered evidence
+jq '.' coordination/reddit_victim_001.json
+
+# Check backward search results
+jq '.' coordination/backward_search_reddit_victim_001.json
+
+# Review soundness evaluation
+jq '.' coordination/soundness_reddit_victim_001.json
+
+# See tier assignment
+jq '.' coordination/tier_assignment_reddit_victim_001.json
+
+
+📖 READ DOCUMENTATION
+══════════════════════════════════════════════════════════════════════════════
+
+# Complete system guide
+cat CONTINUOUS_LOOP_README.md
+
+# Detailed execution report
+cat CONTINUOUS_LOOP_EXECUTION_REPORT.md
+
+# Quick summary
+cat CONTINUOUS_LOOP_SUMMARY.txt
+
+
+🎯 RUN INDIVIDUAL CYCLES (Optional)
+══════════════════════════════════════════════════════════════════════════════
+
+# Initialize first
+./scripts/cert1_continuous_discovery.sh
+
+# Then run cycles individually
+./scripts/cycle1_reddit_discovery.sh
+./scripts/cycle2_court_discovery.sh
+./scripts/cycle3_video_discovery.sh
+./scripts/cycle4_victim_correlation.sh
+./scripts/cycle5_linkedin_discovery.sh
+
+# Run evidence builder manually
+./scripts/evidence_builder.sh
+
+
+🛠️ SYSTEM FILES
+══════════════════════════════════════════════════════════════════════════════
+
+scripts/
+  ├── run_continuous_loop.sh          # Master orchestrator (START HERE)
+  ├── monitor_continuous_loop.sh      # Real-time monitoring
+  ├── cert1_continuous_discovery.sh   # System initialization
+  ├── cycle1_reddit_discovery.sh      # Reddit cycle
+  ├── cycle2_court_discovery.sh       # Court cycle
+  ├── cycle3_video_discovery.sh       # Video cycle
+  ├── cycle4_victim_correlation.sh    # Victim cycle
+  ├── cycle5_linkedin_discovery.sh    # LinkedIn cycle
+  ├── backward_citation_search.sh     # Process A
+  ├── soundness_evaluator.sh          # Process B
+  ├── tier_assignment_engine.sh       # Process C
+  └── evidence_builder.sh             # Process D
+
+coordination/
+  ├── continuous_loop_state.json      # Global state
+  ├── continuous_loop.log             # Detailed log
+  ├── pillar_reddit_live.json         # Reddit output
+  ├── pillar_courts_live.json         # Court output
+  ├── pillar_video_live.json          # Video output
+  ├── victim_correlations_live.json   # Victim output
+  ├── entity_updates_live.json        # LinkedIn output
+  ├── tier_updates_log.json           # Tier changes
+  └── prosecution_readiness_live.json # Prosecution metrics
+
+
+✅ VALIDATION CHECKS
+══════════════════════════════════════════════════════════════════════════════
+
+After running, verify:
+
+# All cycles completed
+jq '.cycles | to_entries[] | "\(.key): \(.value.status)"' \
+  coordination/continuous_loop_state.json
+
+# Total discoveries
+jq '.total_discoveries' coordination/continuous_loop_state.json
+
+# Prosecution readiness
+jq '.readiness_summary' coordination/prosecution_readiness_live.json
+
+# Check for errors
+grep -i error coordination/continuous_loop.log
+
+
+🔗 INTEGRATION POINTS DEMONSTRATED
+══════════════════════════════════════════════════════════════════════════════
+
+1. Reddit Victim → Blockchain → Attribution Upgrade
+   ✓ See: coordination/victim_correlations_live.json
+
+2. Court Record → ShadowLens → Verification
+   ✓ See: coordination/pillar_courts_live.json
+
+3. LinkedIn → Entity Network → Multi-Source OSINT
+   ✓ See: coordination/entity_updates_live.json
+
+4. Video → Telegram → Wire Fraud Pattern
+   ✓ See: coordination/pillar_video_live.json
+
+
+🎉 SUCCESS INDICATORS
+══════════════════════════════════════════════════════════════════════════════
+
+You'll know it's working when you see:
+
+[✓] All 5 cycles show "status": "completed"
+[✓] Total discoveries > 0
+[✓] Tier assignments logged (tier_updates_log.json)
+[✓] Backward search finds 900+ corpus matches
+[✓] Prosecution readiness metrics generated
+[✓] No errors in continuous_loop.log
+
+
+📞 TROUBLESHOOTING
+══════════════════════════════════════════════════════════════════════════════
+
+No discoveries found?
+  → Check corpus paths in cycle scripts
+  → Verify search terms are correct
+
+Tier not upgrading?
+  → Check effective_sources in backward_search_*.json
+  → Review confidence score in soundness_*.json
+
+Missing output files?
+  → Ensure coordination/ directory exists
+  → Check script permissions (chmod +x scripts/*.sh)
+
+Errors in log?
+  → Review coordination/continuous_loop.log
+  → Check coordination/continuous_loop_state.json
+
+
+══════════════════════════════════════════════════════════════════════════════
+
+STATUS: ✅ READY TO RUN
+
+Start here: ./scripts/run_continuous_loop.sh
+
+══════════════════════════════════════════════════════════════════════════════

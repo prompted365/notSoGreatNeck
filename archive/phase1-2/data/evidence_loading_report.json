@@ -1,0 +1,97 @@
+{
+  "report_generated": "2025-11-20T17:21:52.860957",
+  "database_path": "/Users/breydentaylor/certainly/.swarm/memory.db",
+  "total_loaded": 157,
+  "by_tier": {
+    "tier1": 51,
+    "tier2": 86,
+    "tier3": 20
+  },
+  "by_category": {
+    "blockchain": 100,
+    "telegram": 2,
+    "urls": 0,
+    "entities": 5,
+    "binder": 0,
+    "patterns": 50
+  },
+  "cross_references_created": 157,
+  "evidence_index_entries": 157,
+  "namespaces": [
+    "evidence_tier1",
+    "evidence_tier2",
+    "evidence_tier3"
+  ],
+  "sample_cross_references": [
+    {
+      "evidence_id": "blockchain_tx_1",
+      "entity": "0x7d8378d189831f25e184621a1cc026fc99f9c48c",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_2",
+      "entity": "0x765277eebeca2e31912c9946eae1021199b39c61",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_3",
+      "entity": "0xc899c4d73ed8df2ead1543ab915888b0bf7d57a2",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_4",
+      "entity": "0x0000000000000000000000000000000000000000",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_5",
+      "entity": "0xd048b4c23af828e5be412505a51a8dd7b37782dd",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_6",
+      "entity": "0xe3e1147acd39687a25ca7716227c604500f5c31a",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_7",
+      "entity": "0xd048b4c23af828e5be412505a51a8dd7b37782dd",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_8",
+      "entity": "0x82d0952f3524df3e0f003d6bb231015d312f9164",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_9",
+      "entity": "0xe3e1147acd39687a25ca7716227c604500f5c31a",
+      "predicate": "money_laundering",
+      "tier": 1
+    },
+    {
+      "evidence_id": "blockchain_tx_10",
+      "entity": "0x82d0952f3524df3e0f003d6bb231015d312f9164",
+      "predicate": "money_laundering",
+      "tier": 1
+    }
+  ],
+  "tier_distribution": {
+    "tier1_percentage": 32.48,
+    "tier2_percentage": 54.78,
+    "tier3_percentage": 12.74
+  },
+  "key_predicates": {
+    "wire_fraud": 4,
+    "money_laundering": 151,
+    "fraudulent_claims": 2
+  }
+}

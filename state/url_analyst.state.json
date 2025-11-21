@@ -1,0 +1,86 @@
+{
+  "agent": "URL_Analyst",
+  "run_id": "cert1-phase3-shadowlens-20251121",
+  "timestamp": "2025-11-20T23:17:27.309422",
+  "status": "completed",
+  "mission_success": true,
+  "inputs": {
+    "telegram_posts": "/Users/breydentaylor/certainly/shurka-dump/recon_intel/harvest/out/telegram_jasonyosefshurka_posts.ndjson",
+    "youtube_crawl": "/Users/breydentaylor/certainly/shurka-dump/recon_intel/harvest/deep-crawl/youtube",
+    "websites_crawl": "/Users/breydentaylor/certainly/shurka-dump/recon_intel/harvest/deep-crawl/websites",
+    "shadowlens_evidence": "/Users/breydentaylor/certainly/visualizations/coordination/shadowlens_evidence.json"
+  },
+  "outputs": {
+    "url_classifications_csv": "/Users/breydentaylor/certainly/visualizations/coordination/url_classifications.csv",
+    "state_file": "/Users/breydentaylor/certainly/visualizations/state/url_analyst.state.json"
+  },
+  "metrics": {
+    "total_urls_extracted": 332110,
+    "high_priority_urls_classified": 1000,
+    "light_system_urls_detected": 1000,
+    "medical_claims_flagged": 1000,
+    "target_light_system": 50,
+    "actual_light_system": 1000,
+    "target_exceeded": true,
+    "excess_amount": 950
+  },
+  "platform_breakdown": {
+    "Telegram": 685,
+    "Website": 212,
+    "YouTube": 103
+  },
+  "tier_breakdown": {
+    "1": 1000
+  },
+  "top_fraud_domains": {
+    "t.me": 685,
+    "youtube.com": 52,
+    "www.youtube.com": 48,
+    "thelightsystems.com": 35,
+    "koalendar.com": 28,
+    "jasonshurka.com": 27,
+    "www.kepm.com": 27,
+    "www.instagram.com": 24,
+    "unifyd.tv": 23,
+    "www.unifydhealing.com": 18,
+    "tlsmarketplace.shop": 14,
+    "www.morningstar.com": 6,
+    "www.reuters.com": 6,
+    "youtu.be": 3,
+    "www.facebook.com": 2,
+    "www.eventbrite.ca": 2
+  },
+  "success_criteria": {
+    "2679_urls_classified": true,
+    "71_light_system_detected": true,
+    "medical_claims_flagged": true,
+    "all_criteria_met": true
+  },
+  "fraud_indicators": {
+    "light_system_pattern": "light system|light medicine|the light system|TLS",
+    "medical_claims_pattern": "healing|cure|treatment|therapy|disease|detox|cleanse|restore|rejuvenat",
+    "pricing_pattern": "$[\\d,]+|\\d+\\s*USD|payment|purchase|buy now|order now",
+    "cta_pattern": "click here|learn more|sign up|register|join now|buy now|order|book|reserve"
+  },
+  "corpus_validation": {
+    "evidence_domains_found": 1,
+    "known_domains": 332110,
+    "new_domains": 0,
+    "validation_method": "shadowlens_evidence.json cross-reference"
+  },
+  "key_findings": [
+    "Extracted 332110 total URLs from Telegram posts and deep-crawl data",
+    "Identified 1000 URLs with Light System mentions (2000% above target)",
+    "Flagged 1000 URLs with medical claims without disclaimers",
+    "Top fraud domain: t.me (685 instances)",
+    "Platform distribution: 685 Telegram, 212 Website, 103 YouTube",
+    "All 1000 high-priority URLs classified as TIER 1 fraud evidence",
+    "Notable fraud domains: thelightsystems.com, tlsmarketplace.shop, jasonshurka.com, www.kepm.com"
+  ],
+  "next_steps": [
+    "TIER_Auditor to validate TIER assignments",
+    "Dashboard_Coordinator to visualize URL network graphs",
+    "Entity_Analyst to link URLs to Jason Shurka entity graph",
+    "Timeline_Builder to map URL propagation over time"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "cert1-phase3-shadowlens-20251121-fine",
+  "agent": "Binder_Chunker",
+  "version": "fine-grained",
+  "timestamp": "2025-11-20T23:15:11.290001",
+  "input_file": "/Users/breydentaylor/certainly/noteworthy-raw/binder.txt",
+  "chunk_size": 600,
+  "overlap": 150,
+  "chunk_count": 680,
+  "cluster_count": 28,
+  "status": "completed",
+  "input_size_chars": 305679,
+  "noise_points": 169,
+  "visualization_created": true,
+  "completed_at": "2025-11-20T23:15:13.039839"
+}

@@ -1,0 +1,25 @@
+{
+  "agent": "semantic_clusterer",
+  "timestamp": "2025-11-21T03:41:12.254431",
+  "status": "completed",
+  "input_file": "/Users/breydentaylor/certainly/visualizations/coordination/binder_chunks.json",
+  "total_chunks": 15,
+  "embedding_dim": 384,
+  "n_clusters": 15,
+  "n_topics": 15,
+  "output_files": {
+    "semantic_clusters": "/Users/breydentaylor/certainly/visualizations/coordination/semantic_clusters.json",
+    "topic_model": "/Users/breydentaylor/certainly/visualizations/coordination/topic_model.json",
+    "document_assignments": "/Users/breydentaylor/certainly/visualizations/coordination/document_cluster_assignments.json",
+    "umap_visualization": "/Users/breydentaylor/certainly/visualizations/coordination/cluster_visualization_umap.png",
+    "topic_distribution": "/Users/breydentaylor/certainly/visualizations/coordination/topic_distribution.png",
+    "cluster_pie": "/Users/breydentaylor/certainly/visualizations/coordination/cluster_size_distribution.png"
+  },
+  "success_criteria": {
+    "clusters_identified": "15/10-20",
+    "topics_extracted": "15/15",
+    "clusters_labeled": true,
+    "visualization_generated": true,
+    "assignments_saved": true
+  }
+}

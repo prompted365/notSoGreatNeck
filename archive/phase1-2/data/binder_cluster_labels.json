@@ -1,0 +1,62 @@
+[
+  {
+    "cluster_id": 0,
+    "label": "SIG SHURKA OPERATIONS",
+    "top_keywords": [
+      "sig",
+      "shurka",
+      "operations",
+      "fraud",
+      "unifyd"
+    ],
+    "chunk_count": 290
+  },
+  {
+    "cluster_id": 1,
+    "label": "UNIFYD ZONE ZEN",
+    "top_keywords": [
+      "unifyd",
+      "zone",
+      "zen",
+      "review",
+      "fl"
+    ],
+    "chunk_count": 4
+  },
+  {
+    "cluster_id": 2,
+    "label": "JASON VIDEO UNIFYD",
+    "top_keywords": [
+      "jason",
+      "video",
+      "unifyd",
+      "extortion",
+      "owners"
+    ],
+    "chunk_count": 5
+  },
+  {
+    "cluster_id": 3,
+    "label": "WASHINGTON SIG PORT",
+    "top_keywords": [
+      "washington",
+      "sig",
+      "port",
+      "operational",
+      "headquarters"
+    ],
+    "chunk_count": 3
+  },
+  {
+    "cluster_id": -1,
+    "label": "000 UNIFYD FRAUD",
+    "top_keywords": [
+      "000",
+      "unifyd",
+      "fraud",
+      "sig",
+      "operations"
+    ],
+    "chunk_count": 81
+  }
+]

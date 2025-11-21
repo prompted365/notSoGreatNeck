@@ -1,0 +1,12 @@
+{
+  "start_time": "2025-11-21T03:47:40.331159",
+  "end_time": "2025-11-21T03:47:40.331165",
+  "status": "completed",
+  "total_vectors": 88721,
+  "test_queries": 3,
+  "outputs": {
+    "collection_info": "/Users/breydentaylor/certainly/visualizations/coordination/qdrant_collection_info.json",
+    "embeddings_metadata": "/Users/breydentaylor/certainly/visualizations/coordination/qdrant_embeddings_metadata.json",
+    "test_searches": "/Users/breydentaylor/certainly/visualizations/coordination/qdrant_test_searches.json"
+  }
+}

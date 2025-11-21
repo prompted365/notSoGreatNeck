@@ -1,0 +1,37 @@
+{
+  "run_id": "cert1-phase3-shadowlens-20251121",
+  "status": "complete",
+  "phase": "fraud_scoring_complete",
+  "outputs": [
+    "fraud_scores.csv",
+    "fraud_scores_top100.csv"
+  ],
+  "metrics": {
+    "total_posts_scored": 9831,
+    "target_posts": 9788,
+    "top_100_count": 100,
+    "avg_fraud_score_all": 97.82,
+    "avg_fraud_score_top100": 100.0,
+    "posts_over_80": 9445,
+    "top100_over_80": 100,
+    "corpus_validation_rate": 100.0,
+    "ees_protection_violations": 3,
+    "tls_fraud_posts": 13,
+    "tier_critical": 9445,
+    "tier_high": 263,
+    "tier_medium": 85,
+    "tier_low": 38
+  },
+  "success_criteria": {
+    "posts_scored_met": true,
+    "avg_score_over_80": true,
+    "top_100_corpus_backed": true,
+    "no_ees_violations": false,
+    "overall_status": "COMPLETE_WITH_WARNINGS"
+  },
+  "warnings": [
+    "3 posts flagged with potential EESystem false positives",
+    "Manual review recommended for posts with both TLS and EESystem mentions"
+  ],
+  "last_updated": "2025-11-20T23:30:00Z"
+}

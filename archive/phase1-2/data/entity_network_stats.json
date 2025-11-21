@@ -1,0 +1,133 @@
+{
+  "total_nodes": 8226,
+  "total_edges": 15474,
+  "density": 0.0004574124449351415,
+  "communities_count": 7898,
+  "top_10_by_degree": [
+    {
+      "label": "Robert Religa",
+      "type": "PERSON",
+      "mentions": 26,
+      "degree_centrality": 0.02407294832826748
+    },
+    {
+      "label": "Jason Shurka",
+      "type": "PERSON",
+      "mentions": 6456,
+      "degree_centrality": 0.02370820668693009
+    },
+    {
+      "label": "BECOMING SUPERHUMAN",
+      "type": "ORGANIZATION",
+      "mentions": 110,
+      "degree_centrality": 0.02370820668693009
+    },
+    {
+      "label": "ALL",
+      "type": "ORGANIZATION",
+      "mentions": 20,
+      "degree_centrality": 0.02370820668693009
+    },
+    {
+      "label": "UNIFYD",
+      "type": "ORGANIZATION",
+      "mentions": 944,
+      "degree_centrality": 0.02370820668693009
+    },
+    {
+      "label": "UNIDENTI",
+      "type": "ORGANIZATION",
+      "mentions": 3,
+      "degree_centrality": 0.01203647416413374
+    },
+    {
+      "label": "YEAR CYCLE",
+      "type": "ORGANIZATION",
+      "mentions": 2,
+      "degree_centrality": 0.01203647416413374
+    },
+    {
+      "label": "FBI",
+      "type": "ORGANIZATION",
+      "mentions": 2,
+      "degree_centrality": 0.01203647416413374
+    },
+    {
+      "label": "AUSTRAC",
+      "type": "ORGANIZATION",
+      "mentions": 2,
+      "degree_centrality": 0.01203647416413374
+    },
+    {
+      "label": "TERM",
+      "type": "ORGANIZATION",
+      "mentions": 2,
+      "degree_centrality": 0.01203647416413374
+    }
+  ],
+  "top_10_by_betweenness": [
+    {
+      "label": "Robert Religa",
+      "type": "PERSON",
+      "mentions": 26,
+      "betweenness_centrality": 0.0007638618677042801
+    },
+    {
+      "label": "ALL",
+      "type": "ORGANIZATION",
+      "mentions": 20,
+      "betweenness_centrality": 0.0001527861169810438
+    },
+    {
+      "label": "BECOMING SUPERHUMAN",
+      "type": "ORGANIZATION",
+      "mentions": 110,
+      "betweenness_centrality": 0.0001524805447470817
+    },
+    {
+      "label": "Jason Shurka",
+      "type": "PERSON",
+      "mentions": 6456,
+      "betweenness_centrality": 0.0001524805447470817
+    },
+    {
+      "label": "UNIFYD",
+      "type": "ORGANIZATION",
+      "mentions": 944,
+      "betweenness_centrality": 0.0001524805447470817
+    },
+    {
+      "label": "https://www.instagram.com/reel/ci0snfza0fo/?igshid=ymmymta2m2y=",
+      "type": "url",
+      "mentions": 2,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "label": "https://youtu.be/3tk2eoohhmy",
+      "type": "url",
+      "mentions": 2,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "label": "https://youtu.be/dj16nj2dlpm",
+      "type": "url",
+      "mentions": 2,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "label": "https://www.youtube.com/watch?v=dkrpydsuowk",
+      "type": "url",
+      "mentions": 2,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "label": "https://unifyd.tv/?",
+      "type": "url",
+      "mentions": 2,
+      "betweenness_centrality": 0.0
+    }
+  ],
+  "avg_degree": 3.762217359591539,
+  "graph_diameter": "N/A (too large to compute efficiently)",
+  "largest_component_size": 295
+}

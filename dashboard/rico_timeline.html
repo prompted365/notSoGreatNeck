@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RICO Predicate Timeline - 1993 to 2025</title>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #0a0e27;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            color: #b8c6db;
+        }
+        .chart-container {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+            margin-bottom: 30px;
+        }
+        .event-list {
+            background: #1a1f3a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #2a5298;
+        }
+        .event-item {
+            padding: 15px;
+            margin: 10px 0;
+            background: #252b4a;
+            border-left: 4px solid;
+            border-radius: 5px;
+        }
+        .event-item.tier1 { border-left-color: #4CAF50; }
+        .event-item.tier2 { border-left-color: #2196F3; }
+        .event-item.tier3 { border-left-color: #FFC107; }
+        .event-date {
+            font-weight: bold;
+            color: #4da6ff;
+            font-size: 18px;
+        }
+        .event-title {
+            font-weight: bold;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .event-predicate {
+            color: #e74c3c;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .event-description {
+            color: #b8c6db;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RICO Predicate Timeline</h1>
+        <p>32-Year Criminal Enterprise: 1993 - 2025</p>
+    </div>
+
+    <div class="chart-container">
+        <div id="timelineChart"></div>
+    </div>
+
+    <div class="event-list">
+        <h2 style="color: #4da6ff;">Key Events - Temporal Anchors</h2>
+
+        <div class="event-item tier1">
+            <div class="event-date">1993</div>
+            <div class="event-title">Efraim Shurka Felony Conviction</div>
+            <div class="event-predicate">RICO Predicate: Predicate Actor (establishes pattern)</div>
+            <div class="event-description">
+                Earliest temporal anchor. Efraim E. Shurka (Gen 1 patriarch) convicted of felony.
+                Establishes multi-generational criminal enterprise pattern.
+            </div>
+        </div>
+
+        <div class="event-item tier1">
+            <div class="event-date">January 18, 2002</div>
+            <div class="event-title">"Creditor-Proof" Fraudulent Conveyance Agreement</div>
+            <div class="event-predicate">RICO Predicates: Fraudulent Conveyance, Tax Evasion</div>
+            <div class="event-description">
+                Documentary proof of conspiracy. Asset protection scheme designed to evade creditors and taxes.
+                Principals: Manny Shurka, Malka Shurka, Efraim Shurka, Esther Zernitsky.
+                Subpoena target: Nassau County Clerk/Surrogate's Court.
+            </div>
+        </div>
+
+        <div class="event-item tier1">
+            <div class="event-date">September 2011</div>
+            <div class="event-title">Lukoil Judgment & PDI Bank Round-Tripping</div>
+            <div class="event-predicate">RICO Predicates: Money Laundering, Fraudulent Conveyance</div>
+            <div class="event-description">
+                Proof of asset evasion success. PDI Bank Records show $37K round-tripping through 4 entities on same day.
+                Demonstrates sophisticated money laundering operation.
+                Subpoena targets: Lukoil Plaintiff Discovery, PDI Bank Records.
+            </div>
+        </div>
+
+        <div class="event-item tier1">
+            <div class="event-date">2015 - 2024</div>
+            <div class="event-title">Blockchain Transaction Flow: $564.6M</div>
+            <div class="event-predicate">RICO Predicates: Money Laundering, Wire Fraud</div>
+            <div class="event-description">
+                1,426 blockchain transactions totaling $564,642,460.30.
+                237 unique wallet addresses linked to Jason Shurka, Manny Shurka, and UNIFYD.
+                Includes Tornado Cash usage post-sanctions (Aug 2022).
+                Subpoena targets: Exchange KYC records, wallet forensics.
+            </div>
+        </div>
+
+        <div class="event-item tier1">
+            <div class="event-date">2015 - 2025</div>
+            <div class="event-title">The Light System (TLS) Fraud Campaign</div>
+            <div class="event-predicate">RICO Predicates: Wire Fraud, Medical Fraud</div>
+            <div class="event-description">
+                Jason Shurka's systematic fraud using EESystem testimonials to sell TLS technology.
+                1,000 fraud URLs across Telegram (685), Website (212), and YouTube (103) platforms.
+                Alibaba invoices show cost vs. sale price markup (300%+).
+                Subpoena targets: Alibaba, payment processors, Telegram.
+            </div>
+        </div>
+
+        <div class="event-item tier1">
+            <div class="event-date">Date TBD (War Call)</div>
+            <div class="event-title">"War Call" Recording</div>
+            <div class="event-predicate">RICO Predicates: Hobbs Act Extortion, Conspiracy</div>
+            <div class="event-description">
+                Audio recording providing direct evidence of Hobbs Act Extortion and father-son conspiracy.
+                Demonstrates coordination between Jason and Manny Shurka.
+                Critical documentary evidence for prosecution.
+            </div>
+        </div>
+
+        <div class="event-item tier1">
+            <div class="event-date">2016 - Present</div>
+            <div class="event-title">UNIFYD Corporate Structure</div>
+            <div class="event-predicate">RICO Predicate: RICO Enterprise</div>
+            <div class="event-description">
+                UNIFYD World Inc. SC/FL corporate filings show Jason Shurka, Talia Havakok, Tamar Reich as entire board.
+                77-Entity Network Map reveals Layer 1 (SIG) and Layer 3 (Hebrew LLCs) control structure.
+                Terms & Conditions include waiver of court rights via arbitration clause.
+                Subpoena targets: SC/FL Secretary of State, UNIFYD corporate records.
+            </div>
+        </div>
+
+        <div class="event-item tier2">
+            <div class="event-date">JONAH Case Reference</div>
+            <div class="event-title">JONAH Case Documents (Precedent)</div>
+            <div class="event-predicate">RICO Predicate: Family Funding Consumer Fraud</div>
+            <div class="event-description">
+                Legal precedent for family-funded consumer fraud schemes.
+                Witness testimony from Matthew Shurka.
+                Establishes pattern of Shurka family involvement in fraudulent ventures.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Timeline visualization
+        var timelineData = [{
+            x: [
+                '1993',
+                '2002-01-18',
+                '2011-09',
+                '2015',
+                '2016',
+                '2018',
+                '2020',
+                '2022',
+                '2024',
+                '2025'
+            ],
+            y: [1, 1, 2, 150, 200, 250, 350, 450, 500, 48],
+            mode: 'lines+markers',
+            type: 'scatter',
+            fill: 'tozeroy',
+            fillcolor: 'rgba(77, 166, 255, 0.2)',
+            marker: {
+                size: [15, 15, 15, 12, 12, 12, 12, 12, 12, 15],
+                color: ['#e74c3c', '#e74c3c', '#f39c12', '#3498db', '#3498db', '#3498db', '#3498db', '#e74c3c', '#3498db', '#2ecc71'],
+                line: {
+                    color: '#ffffff',
+                    width: 2
+                }
+            },
+            line: {
+                color: '#4da6ff',
+                width: 3,
+                shape: 'spline'
+            },
+            text: [
+                'Efraim Felony',
+                'Creditor-Proof Agreement',
+                'Lukoil Judgment',
+                'TLS Campaign Begins',
+                'UNIFYD Founded',
+                'Blockchain Activity Increases',
+                'COVID-19 Wellness Fraud Surge',
+                'Tornado Cash Post-Sanctions',
+                'Peak Fraud Activity',
+                'shadowLens Evidence'
+            ],
+            hovertemplate: '<b>%{x}</b><br>%{text}<br>Evidence Items: %{y}<extra></extra>'
+        }];
+
+        var layout = {
+            title: {
+                text: 'Criminal Activity Timeline (1993-2025)',
+                font: { size: 24, color: '#ffffff' }
+            },
+            paper_bgcolor: '#1a1f3a',
+            plot_bgcolor: '#252b4a',
+            font: { color: '#ffffff' },
+            xaxis: {
+                title: 'Timeline',
+                gridcolor: '#2a5298',
+                type: 'category'
+            },
+            yaxis: {
+                title: 'Cumulative Evidence Count',
+                gridcolor: '#2a5298'
+            },
+            hovermode: 'closest',
+            height: 600
+        };
+
+        Plotly.newPlot('timelineChart', timelineData, layout, {responsive: true});
+    </script>
+</body>
+</html>

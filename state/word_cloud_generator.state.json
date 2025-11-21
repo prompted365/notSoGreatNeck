@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "timestamp": "1763714509.2770755",
+  "chunks_processed": 8,
+  "global_words": 500,
+  "outputs": {
+    "per_chunk_wordclouds": 8,
+    "global_wordcloud": 1,
+    "indicator_barchart": 1,
+    "cooccurrence_heatmap": 1
+  },
+  "files_generated": [
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_01_telegram.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_02_blockchain.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_03_legal.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_04_financial.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_05_websites.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_06_communications.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_07_documents.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_chunk_08_data.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/wordcloud_global_all_chunks.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/indicator_barchart.png",
+    "/Users/breydentaylor/certainly/visualizations/coordination/indicator_cooccurrence_heatmap.png"
+  ]
+}
